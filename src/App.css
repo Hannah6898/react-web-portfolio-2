@@ -1,38 +1,76 @@
-.App {
+@media (min-width: 768px) {
+  .App .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    max-width: 100%;
+    grid-template-areas:
+      "nav nav nav nav"
+      "home home home home"
+      "home home home home"
+      "home home home home"
+      "about about education education"
+      "about about education education"
+      "tech tech projects projects"
+      "tech tech projects projects"
+      "tech tech projects projects"
+      "contact contact contact contact";
+  }
+}
+@media (max-width: 768px) {
+  .App .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    max-width: 100%;
+    grid-template-areas:
+      "nav nav nav nav"
+      "home home home home"
+      "home home home home"
+      "home home home home"
+      "about about about about"
+      "about about about about"
+      "education education education education"
+      "education education education education"
+      "tech tech tech tech"
+      "tech tech tech tech"
+      "projects projects projects projects"
+      "contact contact contact contact";
+  }
+}
+
+.App .wrapper > * {
+  background-color: grey;
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .wrapper .nav {
+  grid-area: nav;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .wrapper .home {
+  grid-area: home;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .wrapper .about {
+  grid-area: about;
 }
 
-.App-link {
-  color: #61dafb;
+.App .wrapper .education {
+  grid-area: education;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .wrapper .tech {
+  grid-area: tech;
+}
+
+.App .projects {
+  grid-area: projects;
+}
+
+.App .wrapper .contact {
+  grid-area: contact;
 }
