@@ -41,36 +41,30 @@
   }
 }
 
-.App .wrapper > * {
-  background-color: grey;
-  padding: 30px;
-  text-align: center;
-}
-
-.App .wrapper .nav {
+.App .wrapper .Nav {
   grid-area: nav;
 }
 
-.App .wrapper .home {
+.App .wrapper .Home {
   grid-area: home;
 }
 
-.App .wrapper .about {
+.App .wrapper .About {
   grid-area: about;
 }
 
-.App .wrapper .education {
+.App .wrapper .Education {
   grid-area: education;
 }
 
-.App .wrapper .tech {
+.App .wrapper .Tech {
   grid-area: tech;
 }
 
-.App .projects {
+.App .Projects {
   grid-area: projects;
 }
 
-.App .wrapper .contact {
+.App .wrapper .Contact {
   grid-area: contact;
 }

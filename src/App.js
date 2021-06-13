@@ -1,16 +1,23 @@
 import "./App.css";
+import Nav from "./Nav/Nav";
+import Home from "./Home/Home";
+import About from "./About/About";
+import Education from "./Education/Education";
+import Tech from "./Tech/Tech";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 export default function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="nav">Nav</div>
-        <div className="home">Home</div>
-        <div className="about">About Me</div>
-        <div className="education">Education</div>
-        <div className="tech">Tech stack</div>
-        <div className="projects">Projects</div>
-        <div className="contact">Contact Me</div>
+        <Nav />
+        <Home />
+        <About />
+        <Education />
+        <Tech />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );
