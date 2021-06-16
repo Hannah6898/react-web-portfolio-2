@@ -1,5 +1,10 @@
 .Contact {
-  background-color: grey;
-  padding: 30px;
   text-align: center;
+}
+
+.Contact .contact-form {
+  margin: 0 auto;
+  width: 80%;
+  background-color: lightgray;
+  border-radius: 10px;
 }

@@ -1,5 +1,8 @@
 .Tech {
-  background-color: grey;
-  padding: 30px;
   text-align: center;
+}
+
+.Tech .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css";
-import logo from "../img/Name-logo.png";
+import logo from "../img/Logo.png";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -47,8 +47,8 @@ export default function Nav() {
   return (
     <div className="Nav">
       <div className={classes.root}>
-        <AppBar position="static" className={classes.appBar}>
-          <Toolbar>
+        <AppBar position="fixed" className={classes.appBar}>
+          <Toolbar display="flex" justifyContent="space-between">
             <img
               src={logo}
               alt="logo"
