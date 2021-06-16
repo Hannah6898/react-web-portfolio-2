@@ -11,10 +11,7 @@ import ParticleBackground from "./ParticleBackground";
 export default function App() {
   return (
     <div className="App">
-      <div>
-        <ParticleBackground />
-      </div>
-
+      <ParticleBackground />
       <div className="wrapper">
         <Nav />
         <Home />

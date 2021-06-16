@@ -1,3 +1,39 @@
+.App {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  width: "100%";
+  height: "100%";
+}
+
+.App .wrapper .Nav {
+  grid-area: nav;
+}
+
+.App .wrapper .Home {
+  grid-area: home;
+}
+
+.App .wrapper .About {
+  grid-area: about;
+}
+
+.App .wrapper .Education {
+  grid-area: education;
+}
+
+.App .wrapper .Tech {
+  grid-area: tech;
+}
+
+.App .Projects {
+  grid-area: projects;
+}
+
+.App .wrapper .Contact {
+  grid-area: contact;
+}
+
 @media (min-width: 768px) {
   .App .wrapper {
     display: grid;
@@ -39,32 +75,4 @@
       "projects projects projects projects"
       "contact contact contact contact";
   }
-}
-
-.App .wrapper .Nav {
-  grid-area: nav;
-}
-
-.App .wrapper .Home {
-  grid-area: home;
-}
-
-.App .wrapper .About {
-  grid-area: about;
-}
-
-.App .wrapper .Education {
-  grid-area: education;
-}
-
-.App .wrapper .Tech {
-  grid-area: tech;
-}
-
-.App .Projects {
-  grid-area: projects;
-}
-
-.App .wrapper .Contact {
-  grid-area: contact;
 }
