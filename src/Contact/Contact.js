@@ -9,6 +9,16 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       width: "25ch",
     },
+    contactForm: {
+      margin: "20px auto",
+      width: "80%",
+      backgroundColor: "pink",
+      borderRadius: "10px",
+    },
+    submit: {
+      backgroundColor: "pink",
+      padding: "10px",
+    },
   },
 }));
 
@@ -18,33 +28,32 @@ export default function Contact() {
     <div className="Contact">
       <h1>Contact Me</h1>
       <p>If you would like to get in touch, fill out the form below</p>
-      <div className="contact-form">
+      <div className={classes.contactForm}>
         <form className={classes.root} noValidate autoComplete="off">
           <div>
             <TextField
-              required
-              id="standard-required"
-              label="Required"
-              defaultValue="Name"
+              id="standard-name-input"
+              label="Name"
+              type="Text"
+              autoComplete="name"
             />
-          </div>
-          <div>
             <TextField
-              required
-              id="standard-required"
-              label="Required"
-              defaultValue="Email"
+              id="standard-email-input"
+              label="Email"
+              type="Email"
+              autoComplete="email"
             />
-          </div>
-          <div>
             <TextField
-              required
-              id="standard-required"
-              label="Required"
-              defaultValue="Message"
+              id="standard-text-input"
+              label="Message"
+              type="Text"
+              multiline
+              rows={8}
             />
           </div>
-          <button>Send</button>
+          <button className={classes.submit} type="submit">
+            Send
+          </button>
         </form>
       </div>
     </div>

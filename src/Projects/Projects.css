@@ -2,3 +2,11 @@
   text-align: center;
   padding-bottom: 20px;
 }
+
+.Projects img {
+  width: 150px;
+}
+
+.MuiAccordionDetails-root {
+  display: block;
+}

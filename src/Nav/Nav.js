@@ -8,13 +8,13 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
+    display: "flex",
+    justifyContent: "space-between",
   },
   appBar: {
     backgroundColor: "transparent",
@@ -22,11 +22,11 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "none",
   },
   menuIcon: {
+    justifyContent: "flex-end",
     color: "black",
-    marginLeft: 0,
   },
   logo: {
-    flexGrow: 1,
+    width: "50px",
   },
 }));
 
@@ -48,13 +48,8 @@ export default function Nav() {
     <div className="Nav">
       <div className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
-          <Toolbar display="flex" justifyContent="space-between">
-            <img
-              src={logo}
-              alt="logo"
-              className={classes.logo}
-              className="logo"
-            />
+          <Toolbar>
+            <img src={logo} alt="logo" className={classes.logo} />
 
             {auth && (
               <div>
@@ -63,11 +58,9 @@ export default function Nav() {
                   aria-controls="menu-appbar"
                   aria-haspopup="true"
                   onClick={handleMenu}
-                  color="inherit"
                 >
                   <MenuIcon className={classes.menuIcon} />
                 </IconButton>
-
                 <Menu
                   id="menu-appbar"
                   anchorEl={anchorEl}
