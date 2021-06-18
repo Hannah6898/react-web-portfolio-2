@@ -11,7 +11,10 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { GoLink } from "react-icons/go";
-import { AiFillGithub } from "react-icons/ai";
+import { SiNetlify, SiJavascript, SiCsharp } from "react-icons/si";
+import { DiHtml5, DiCss3, DiReact, DiSass, DiPython } from "react-icons/di";
+import { FaBootstrap, FaNodeJs } from "react-icons/fa";
+import { AiFillGithub, AiFillApi } from "react-icons/ai";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,9 +26,7 @@ const useStyles = makeStyles((theme) => ({
     flexBasis: "33.33%",
     flexShrink: 0,
   },
-  secondaryHeading: {
-    fontSize: theme.typography.pxToRem(15),
-  },
+
   accordion: {
     margin: "10px",
     backgroundColor: "#da0463",
@@ -41,6 +42,9 @@ const useStyles = makeStyles((theme) => ({
   description: {
     textAlign: "left",
     paddingLeft: "15px",
+  },
+  techIcon: {
+    fontSize: "30px",
   },
 }));
 
@@ -127,7 +131,7 @@ export default function Projects() {
           >
             <Typography className={classes.heading}>Portfolio</Typography>
             <Typography className={classes.secondaryHeading}>
-              HTML | CSS | JS | React | API | Netlify
+              HTML | CSS | JS | React | Netlify
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -155,7 +159,7 @@ export default function Projects() {
           >
             <Typography className={classes.heading}>Youtube Clone</Typography>
             <Typography className={classes.secondaryHeading}>
-              HTML | CSS | JS | React | API | Netlify
+              HTML | CSS | JS | Netlify
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -185,9 +189,7 @@ export default function Projects() {
               JavaScript Drum Kit
             </Typography>
             <Typography className={classes.secondaryHeading}>
-              <Typography className={classes.secondaryHeading}>
-                HTML | CSS | JS | React | API | Netlify
-              </Typography>
+              HTML | CSS | JS | Netlify
             </Typography>
           </AccordionSummary>
           <AccordionDetails>

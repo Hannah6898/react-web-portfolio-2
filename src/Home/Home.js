@@ -45,28 +45,7 @@ export default function Home() {
         <h3 className={classes.pink}>Hi there!</h3>
         <h1 className={classes.heading}>I'm Hannah Osibodu</h1>
         <h3>A Software Developer based in the UK</h3>
-        <ul className={classes.list}>
-          <li>
-            <Link to="/" className={classes.link}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className={classes.link}>
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className={classes.link}>
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/" className={classes.link}>
-              CV
-            </Link>
-          </li>
-        </ul>
+
         <Link
           href="https://www.linkedin.com/in/hannah-osibodu-63b524152/"
           target="_blank"
