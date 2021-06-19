@@ -52,6 +52,7 @@
       "home home home home"
       "home home home home"
       "home home home home"
+      "home home home home"
       "about about education education"
       "about about education education"
       "tech tech projects projects"
@@ -69,6 +70,7 @@
     max-width: 100%;
     grid-template-areas:
       "nav nav nav nav"
+      "home home home home"
       "home home home home"
       "home home home home"
       "home home home home"

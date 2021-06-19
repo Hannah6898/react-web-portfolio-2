@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
   const classes = useStyles();
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className={classes.root}>
         <h1 className={classes.header}>About Me</h1>
         <p>
@@ -27,6 +27,7 @@ export default function About() {
           transferable skills such as problem solving and data analysis; and
           develop my skills.
         </p>
+        <button>CV</button>
       </div>
     </div>
   );

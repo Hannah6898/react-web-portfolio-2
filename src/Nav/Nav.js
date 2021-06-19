@@ -9,7 +9,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import Link from "@material-ui/core/Link";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -57,6 +57,10 @@ export default function Nav() {
     setAnchorEl(null);
   };
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <div className="Nav">
       <div className={classes.root}>
@@ -64,7 +68,9 @@ export default function Nav() {
           <Toolbar>
             <div className={classes.title}>
               {" "}
-              <img src={logo} alt="logo" className={classes.logo} />
+              <Link onClick={toggleHome}>
+                <img src={logo} alt="logo" className={classes.logo} />
+              </Link>
             </div>
 
             {isMobile ? (
@@ -94,20 +100,111 @@ export default function Nav() {
                   open={open}
                   onClose={handleClose}
                 >
-                  <MenuItem onClick={handleClose}>Home</MenuItem>
-                  <MenuItem onClick={handleClose}>About</MenuItem>
-                  <MenuItem onClick={handleClose}>Projects</MenuItem>
-                  <MenuItem onClick={handleClose}>Contact</MenuItem>
-                  <MenuItem onClick={handleClose}>CV</MenuItem>
+                  <MenuItem>
+                    <Link onClick={handleClose} onClick={toggleHome}>
+                      Home
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      onClick={handleClose}
+                      activeClass="active"
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={-90}
+                      duration={500}
+                    >
+                      About
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      onClick={handleClose}
+                      activeClass="active"
+                      to="education"
+                      spy={true}
+                      smooth={true}
+                      offset={-90}
+                      duration={500}
+                    >
+                      Education
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      onClick={handleClose}
+                      activeClass="active"
+                      to="tech"
+                      spy={true}
+                      smooth={true}
+                      offset={-90}
+                      duration={500}
+                    >
+                      Tech Stack
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      onClick={handleClose}
+                      activeClass="active"
+                      to="projects"
+                      spy={true}
+                      smooth={true}
+                      offset={-90}
+                      duration={500}
+                    >
+                      Projects
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      onClick={handleClose}
+                      activeClass="active"
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-90}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
+                  </MenuItem>
                 </Menu>
               </div>
             ) : (
               <div className={classes.link}>
-                <Link>Home</Link>
-                <Link>About</Link>
-                <Link>Projects</Link>
-                <Link>Contact</Link>
-                <Link>CV</Link>
+                <Link onClick={toggleHome}>Home</Link>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}
+                >
+                  About
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}
+                >
+                  Projects
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </div>
             )}
           </Toolbar>

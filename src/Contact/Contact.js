@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Contact() {
   const classes = useStyles();
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <h1>Contact Me</h1>
       <p>If you would like to get in touch, fill out the form below</p>
       <div className={classes.contactForm}>

@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Home() {
   const classes = useStyles();
   return (
-    <div className="Home">
+    <div className="Home" id="home">
       <div className={classes.root}>
         <h3 className={classes.pink}>Hi there!</h3>
         <h1 className={classes.heading}>I'm Hannah Osibodu</h1>

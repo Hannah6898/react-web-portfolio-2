@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Tech() {
   const classes = useStyles();
   return (
-    <div className="Tech">
+    <div className="Tech" id="tech">
       <div className={classes.root}>
         <h1>Tech Stack</h1>
         <p>I have experence with the following technologies:</p>

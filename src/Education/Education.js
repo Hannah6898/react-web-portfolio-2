@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Education() {
   const classes = useStyles();
   return (
-    <div className="Education">
+    <div className="Education" id="education">
       <div className={classes.root}>
         <h1 className={classes.header}>Education</h1>
         <h3>Certificates</h3>
