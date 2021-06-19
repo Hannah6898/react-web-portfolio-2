@@ -4,8 +4,9 @@ import { Link } from "react-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoIosArrowDown } from "react-icons/io";
+import Typewriter from "typewriter-effect";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     textAlign: "center",
   },
@@ -15,22 +16,11 @@ const useStyles = makeStyles((theme) => ({
   pink: {
     color: "#da0463",
   },
-
-  list: {
-    listStyleType: "none",
-    padding: 0,
-    display: "flex",
-    flexDirection: "row",
-    marginTop: "50px",
+  arrow: {
+    color: "#da0463",
+    fontSize: "50px",
   },
 
-  link: {
-    color: "black",
-    "&:hover": {
-      textDecoration: "underline",
-      color: "#da0463",
-    },
-  },
   techIcon: {
     fontSize: "40px",
     color: "#da0463",
@@ -40,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Home() {
   const classes = useStyles();
+
   return (
     <div className="Home" id="home">
       <div className={classes.root}>
@@ -50,6 +41,7 @@ export default function Home() {
           href="https://www.linkedin.com/in/hannah-osibodu-63b524152/"
           target="_blank"
           rel="noreferrer"
+          className="link"
         >
           <AiFillLinkedin className={classes.techIcon} />
         </Link>
@@ -57,9 +49,22 @@ export default function Home() {
           href="https://github.com/Hannah6898"
           target="_blank"
           rel="noreferrer"
+          className="link"
         >
           <AiFillGithub className={classes.techIcon} />
         </Link>
+        <p>
+          I have skills in
+          <Typewriter
+            className={classes.pink}
+            options={{
+              strings: ["Hello", "World"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </p>
+
         <Link
           activeClass="active"
           to="about"
@@ -68,7 +73,7 @@ export default function Home() {
           offset={-90}
           duration={500}
         >
-          <IoIosArrowDown />
+          <IoIosArrowDown className={classes.arrow} />
         </Link>
       </div>
     </div>

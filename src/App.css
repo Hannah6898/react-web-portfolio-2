@@ -32,7 +32,7 @@
   grid-area: tech;
 }
 
-.App .Projects {
+.App .wrapper .Projects {
   grid-area: projects;
 }
 

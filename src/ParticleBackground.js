@@ -11,6 +11,7 @@ export default function ParticleBackground() {
         left: 0,
         maxWidth: "100%",
         maxHeight: "100%",
+        zIndex: "0",
       }}
     >
       <Particles params={ParticlesConfig}></Particles>;
