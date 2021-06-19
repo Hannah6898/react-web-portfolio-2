@@ -6,7 +6,7 @@ import { DiHtml5, DiCss3, DiReact, DiSass, DiPython } from "react-icons/di";
 import { FaBootstrap, FaNodeJs } from "react-icons/fa";
 import { AiFillGithub, AiFillApi } from "react-icons/ai";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     textAlign: "center",
   },

@@ -1,10 +1,9 @@
 import React from "react";
-import "./Education.css";
 import { makeStyles } from "@material-ui/core/styles";
 import { GoLink } from "react-icons/go";
 import Link from "@material-ui/core/Link";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     padding: "20px",
   },

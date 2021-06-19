@@ -28,13 +28,10 @@ const useStyles = makeStyles((theme) => ({
     width: "50px",
   },
 
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
+  flex: {
     flexGrow: 1,
   },
-  link: {
+  links: {
     "& *": {
       color: "black",
       padding: "0 10px 0 10px",
@@ -66,7 +63,7 @@ export default function Nav() {
       <div className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
-            <div className={classes.title}>
+            <div className={classes.flex}>
               {" "}
               <Link onClick={toggleHome}>
                 <img src={logo} alt="logo" className={classes.logo} />
@@ -173,7 +170,7 @@ export default function Nav() {
                 </Menu>
               </div>
             ) : (
-              <div className={classes.link}>
+              <div className={classes.links}>
                 <Link onClick={toggleHome}>Home</Link>
                 <Link
                   activeClass="active"

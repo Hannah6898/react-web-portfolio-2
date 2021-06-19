@@ -11,10 +11,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { GoLink } from "react-icons/go";
-import { SiNetlify, SiJavascript, SiCsharp } from "react-icons/si";
-import { DiHtml5, DiCss3, DiReact, DiSass, DiPython } from "react-icons/di";
-import { FaBootstrap, FaNodeJs } from "react-icons/fa";
-import { AiFillGithub, AiFillApi } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -1,8 +1,7 @@
 import React from "react";
-import "./About.css";
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     padding: "20px",
   },
