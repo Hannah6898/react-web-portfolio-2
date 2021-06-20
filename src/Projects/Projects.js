@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import WeatherApp from "../img/weatherapp.png";
+import WeatherApp from "../img/weather-app.png";
 import Dictionary from "../img/Dictionary.png";
 import Youtube from "../img/Youtube-clone.png";
 import DrumKit from "../img/DrumKit.png";
@@ -12,6 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { GoLink } from "react-icons/go";
 import { AiFillGithub } from "react-icons/ai";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,10 +39,18 @@ const useStyles = makeStyles((theme) => ({
 
   description: {
     textAlign: "left",
-    paddingLeft: "15px",
+    paddingLeft: "20px",
   },
   techIcon: {
     fontSize: "30px",
+  },
+  projectImg: {
+    marginLeft: "25px",
+  },
+  link: {
+    fontSize: "25px",
+    margin: "10px",
+    color: "white",
   },
 }));
 
@@ -74,15 +83,23 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={WeatherApp}></img>
+              <img src={WeatherApp} className={classes.projectImg}></img>
             </div>
             <Typography className={classes.description}>
-              Developed a React weather app as part my SheCodes React coding
-              course. Through this project I became skilled in using Bootstrap,
-              API's, real- life development workflow, hosting and JavaScript.
+              A weather application which dynamically displays the present
+              weather of the users desired location and current location, using
+              Open Weather Map API. Through this project I became skilled in
+              using Bootstrap, API's, real- life development workflow, hosting
+              and JavaScript.
               <br />
-              <GoLink />
-              <AiFillGithub />
+              <Link>
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link>
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -103,16 +120,20 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={Dictionary}></img>
+              <img src={Dictionary} className={classes.projectImg}></img>
             </div>
             <Typography className={classes.description}>
-              Created a React Dictionary app as part of SheCodes React Course. I
-              used the knowledge I'd gained on the course to build a working
-              dictionary app incorporating coding best practices, along with
-              popular technologies such as API's and JavaScript.
+              A dictionary application which displays meanings and images of a
+              users searched word; using multiple API calls.
               <br />
-              <GoLink />
-              <AiFillGithub />
+              <Link>
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link>
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -133,14 +154,20 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={WeatherApp}></img>
+              <img src={WeatherApp} className={classes.projectImg}></img>
             </div>
             <Typography className={classes.description}>
               Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
               sit amet egestas eros, vitae egestas augue. Duis vel est augue.
               <br />
-              <GoLink />
-              <AiFillGithub />
+              <Link>
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link>
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -161,14 +188,20 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={Youtube}></img>
+              <img src={Youtube} className={classes.projectImg}></img>
             </div>
             <Typography className={classes.description}>
-              Built a clone of the Youtube homepage using HTML, CSS, Bootstrap
-              and some JavaScript.
+              Developed a site clone of the YouTube homepage using HTML, CSS and
+              JavaScript.
               <br />
-              <GoLink />
-              <AiFillGithub />
+              <Link>
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link>
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -191,14 +224,20 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={DrumKit}></img>
+              <img src={DrumKit} className={classes.projectImg}></img>
             </div>
             <Typography className={classes.description}>
               Created a JavaScript Drum kit using Keyboard events and styled
               using CSS grid.
               <br />
-              <GoLink />
-              <AiFillGithub />
+              <Link>
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link>
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </Typography>
           </AccordionDetails>
         </Accordion>
