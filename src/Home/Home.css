@@ -1,3 +1,7 @@
 .Home li {
   margin: 0 auto;
 }
+
+.Home {
+  z-index: 9999;
+}

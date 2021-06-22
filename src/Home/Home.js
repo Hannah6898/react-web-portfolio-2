@@ -58,7 +58,16 @@ export default function Home() {
           <Typewriter
             className={classes.pink}
             options={{
-              strings: ["Hello", "World"],
+              strings: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Bootstrap",
+                "Material UI",
+                "GitHub",
+                "API's",
+              ],
               autoStart: true,
               loop: true,
             }}
