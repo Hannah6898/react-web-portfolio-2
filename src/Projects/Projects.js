@@ -83,7 +83,11 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={WeatherApp} className={classes.projectImg}></img>
+              <img
+                src={WeatherApp}
+                className={classes.projectImg}
+                alt="WeatherApp"
+              ></img>
             </div>
             <Typography className={classes.description}>
               A weather application which dynamically displays the present
@@ -120,7 +124,11 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={Dictionary} className={classes.projectImg}></img>
+              <img
+                src={Dictionary}
+                className={classes.projectImg}
+                alt="Dictionary"
+              ></img>
             </div>
             <Typography className={classes.description}>
               A dictionary application which displays meanings and images of a
@@ -154,7 +162,11 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={WeatherApp} className={classes.projectImg}></img>
+              <img
+                src={WeatherApp}
+                className={classes.projectImg}
+                alt="WeatherApp"
+              ></img>
             </div>
             <Typography className={classes.description}>
               Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
@@ -188,7 +200,11 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={Youtube} className={classes.projectImg}></img>
+              <img
+                src={Youtube}
+                className={classes.projectImg}
+                alt="Youtube"
+              ></img>
             </div>
             <Typography className={classes.description}>
               Developed a site clone of the YouTube homepage using HTML, CSS and
@@ -224,7 +240,11 @@ export default function Projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <img src={DrumKit} className={classes.projectImg}></img>
+              <img
+                src={DrumKit}
+                className={classes.projectImg}
+                alt="DrumKit"
+              ></img>
             </div>
             <Typography className={classes.description}>
               Created a JavaScript Drum kit using Keyboard events and styled

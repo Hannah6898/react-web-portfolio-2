@@ -98,7 +98,12 @@ export default function Nav() {
                   onClose={handleClose}
                 >
                   <MenuItem>
-                    <Link onClick={handleClose} onClick={toggleHome}>
+                    <Link
+                      onClick={() => {
+                        handleClose();
+                        toggleHome();
+                      }}
+                    >
                       Home
                     </Link>
                   </MenuItem>
