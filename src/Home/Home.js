@@ -6,25 +6,23 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoIosArrowDown } from "react-icons/io";
 import Typewriter from "typewriter-effect";
 import coder from "../img/coder.svg";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(() => ({
-  root: {},
-  heading: {
-    fontSize: "50px",
-  },
-  pink: {
-    color: "#da0463",
-  },
   arrow: {
-    color: "#da0463",
     fontSize: "50px",
     textAlign: "center",
+    color: "#da0463",
+    "&:hover": {
+      cursor: "pointer",
+    },
+    marginTop: "50px",
   },
 
   techIcon: {
     fontSize: "40px",
+    margin: "25px 10px 20px 10px",
     color: "#da0463",
-    margin: "25px 10px 0 10px",
   },
 }));
 
@@ -36,14 +34,19 @@ export default function Home() {
       <div className={classes.root}>
         <div class="grid">
           <article>
-            <h3 className={classes.pink}>Hi there!</h3>
-            <h1 className={classes.heading}>I'm Hannah Osibodu</h1>
-            <h3>A Software Developer based in the UK</h3>
+            <Typography variant="h4" color="primary" gutterBottom>
+              Hi there!
+            </Typography>
+            <Typography variant="h2" gutterBottom>
+              I'm Hannah Osibodu
+            </Typography>
+            <Typography variant="h5" gutterBottom>
+              A Software Developer based in the UK
+            </Typography>
             <Link
               href="https://www.linkedin.com/in/hannah-osibodu-63b524152/"
               target="_blank"
               rel="noreferrer"
-              className="link"
             >
               <AiFillLinkedin className={classes.techIcon} />
             </Link>
@@ -51,14 +54,12 @@ export default function Home() {
               href="https://github.com/Hannah6898"
               target="_blank"
               rel="noreferrer"
-              className="link"
             >
               <AiFillGithub className={classes.techIcon} />
             </Link>
-            <p>
+            <Typography variant="body1">
               I have skills in
               <Typewriter
-                className={classes.pink}
                 options={{
                   strings: [
                     "HTML",
@@ -74,11 +75,12 @@ export default function Home() {
                   loop: true,
                 }}
               />
-            </p>
+            </Typography>
           </article>
           <side>
             <img src={coder} alt="Coder"></img>
           </side>
+
           <div className="arrow">
             {" "}
             <Link

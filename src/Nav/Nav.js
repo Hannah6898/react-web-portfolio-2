@@ -1,5 +1,4 @@
 import React from "react";
-import "./Nav.css";
 import logo from "../img/Logo.png";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -15,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+
   appBar: {
     backgroundColor: "#f9f9f9",
     border: "none",
@@ -32,9 +32,13 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   links: {
-    "& *": {
-      color: "black",
-      padding: "0 10px 0 10px",
+    color: "black",
+    padding: "0 10px 0 10px",
+    "&:hover": {
+      cursor: "pointer",
+    },
+    "&.active": {
+      color: "#da0463",
     },
   },
 }));
@@ -175,9 +179,16 @@ export default function Nav() {
                 </Menu>
               </div>
             ) : (
-              <div className={classes.links}>
-                <Link onClick={toggleHome}>Home</Link>
+              <div>
                 <Link
+                  activeClass="active"
+                  onClick={toggleHome}
+                  className={classes.links}
+                >
+                  Home
+                </Link>
+                <Link
+                  className={classes.links}
                   activeClass="active"
                   to="about"
                   spy={true}
@@ -188,6 +199,7 @@ export default function Nav() {
                   About
                 </Link>
                 <Link
+                  className={classes.links}
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -198,6 +210,7 @@ export default function Nav() {
                   Projects
                 </Link>
                 <Link
+                  className={classes.links}
                   activeClass="active"
                   to="contact"
                   spy={true}

@@ -5,10 +5,12 @@ import { SiNetlify, SiJavascript, SiCsharp } from "react-icons/si";
 import { DiHtml5, DiCss3, DiReact, DiSass, DiPython } from "react-icons/di";
 import { FaBootstrap, FaNodeJs } from "react-icons/fa";
 import { AiFillGithub, AiFillApi } from "react-icons/ai";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(() => ({
   root: {
     textAlign: "center",
+    padding: "20px",
   },
   techIcon: {
     fontSize: "45px",
@@ -21,63 +23,67 @@ export default function Tech() {
   return (
     <div className="Tech" id="tech">
       <div className={classes.root}>
-        <h1>Tech Stack</h1>
-        <p>I have experence with the following technologies:</p>
+        <Typography variant="h4" gutterBottom>
+          Tech Stack
+        </Typography>
+        <Typography variant="body1">
+          I have experence with the following technologies:
+        </Typography>
 
         <div className="grid">
           <div>
             <DiHtml5 className={classes.techIcon} />
-            <p>HTML</p>
+            <Typography variant="body1">HTML</Typography>
           </div>
           <div>
             <DiCss3 className={classes.techIcon} />
-            <p>CSS</p>
+            <Typography variant="body1">CSS</Typography>
           </div>
           <div>
             <SiJavascript className={classes.techIcon} />
-            <p>JavaScript</p>
+            <Typography variant="body1"> JavaScript</Typography>
           </div>
           <div>
             <FaBootstrap className={classes.techIcon} />
-            <p>Bootstrap</p>
+            <Typography variant="body1">Bootstrap</Typography>
           </div>
           <div>
             <SiNetlify className={classes.techIcon} />
-            <p>Netlify</p>
+            <Typography variant="body1">Netlify</Typography>
           </div>
           <div>
             <DiReact className={classes.techIcon} />
-            <p>React</p>
+            <Typography variant="body1">React</Typography>
           </div>
           <div>
             <AiFillGithub className={classes.techIcon} />
-            <p>Github</p>
+            <Typography variant="body1">Github</Typography>
           </div>
           <div>
             <AiFillApi className={classes.techIcon} />
-            <p>API</p>
+            <Typography variant="body1">API</Typography>
           </div>
         </div>
-        <p>
+        <Typography variant="body1">
           Over the next few weeks and months I plan on learning the following
           technologies in order to expand my tech stack
-        </p>
+        </Typography>
         <div className="grid">
           <div>
             <SiCsharp className={classes.techIcon} />
-            <p>C#</p>
+            <Typography variant="body1">C#</Typography>
           </div>
           <div>
             <FaNodeJs className={classes.techIcon} />
-            <p>Node.js</p>
+            <Typography variant="body1">Node.js</Typography>
           </div>
           <div>
             <DiPython className={classes.techIcon} />
-            <p>Python.js</p>
+            <Typography variant="body1">Python.js</Typography>
           </div>
           <div>
             <DiSass className={classes.techIcon} />
-            <p>Sass</p>
+            <Typography variant="body1">Sass</Typography>
           </div>
         </div>
       </div>
