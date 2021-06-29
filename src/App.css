@@ -40,6 +40,10 @@
   grid-area: contact;
 }
 
+.App .wrapper .Footer {
+  grid-area: footer;
+}
+
 @media (min-width: 768px) {
   .App .wrapper {
     display: grid;
@@ -58,7 +62,8 @@
       "tech tech projects projects"
       "tech tech projects projects"
       "tech tech projects projects"
-      "contact contact contact contact";
+      "contact contact contact contact"
+      "footer footer footer footer";
   }
 }
 @media (max-width: 768px) {
@@ -81,6 +86,7 @@
       "tech tech tech tech"
       "tech tech tech tech"
       "projects projects projects projects"
-      "contact contact contact contact";
+      "contact contact contact contact"
+      "footer footer footer footer";
   }
 }

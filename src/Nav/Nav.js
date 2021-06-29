@@ -1,4 +1,5 @@
 import React from "react";
+import "./Nav.css";
 import logo from "../img/Logo.png";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -26,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     width: "50px",
+    "&:hover": {
+      cursor: "pointer",
+    },
   },
 
   flex: {
@@ -63,7 +67,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="Nav">
+    <div className="Nav" id="nav">
       <div className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
@@ -181,9 +185,13 @@ export default function Nav() {
             ) : (
               <div>
                 <Link
-                  activeClass="active"
-                  onClick={toggleHome}
                   className={classes.links}
+                  activeClass="active"
+                  to="nav"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={500}
                 >
                   Home
                 </Link>

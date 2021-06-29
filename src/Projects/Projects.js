@@ -64,7 +64,9 @@ export default function Projects() {
 
   return (
     <div className="Projects" id="projects">
-      <h1>Projects</h1>
+      <Typography variant="h4" gutterBottom>
+        Projects
+      </Typography>
       <div className={classes.root}>
         <Accordion
           expanded={expanded === "panel1"}
@@ -89,7 +91,7 @@ export default function Projects() {
                 alt="WeatherApp"
               ></img>
             </div>
-            <Typography className={classes.description}>
+            <Typography variant="body1" className={classes.description}>
               A weather application which dynamically displays the present
               weather of the users desired location and current location, using
               Open Weather Map API. Through this project I became skilled in

@@ -1,24 +1,14 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-scroll";
+import Arrow from "./Arrow";
+import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { IoIosArrowDown } from "react-icons/io";
 import Typewriter from "typewriter-effect";
 import coder from "../img/coder.svg";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(() => ({
-  arrow: {
-    fontSize: "50px",
-    textAlign: "center",
-    color: "#da0463",
-    "&:hover": {
-      cursor: "pointer",
-    },
-    marginTop: "50px",
-  },
-
   techIcon: {
     fontSize: "40px",
     margin: "25px 10px 20px 10px",
@@ -80,20 +70,7 @@ export default function Home() {
           <side>
             <img src={coder} alt="Coder"></img>
           </side>
-
-          <div className="arrow">
-            {" "}
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-90}
-              duration={500}
-            >
-              <IoIosArrowDown className={classes.arrow} />
-            </Link>
-          </div>
+          <Arrow />
         </div>
       </div>
     </div>
