@@ -12,10 +12,18 @@
 
 .Home article {
   padding-left: 10px;
+  grid-column: 1/2;
 }
 
 .Home img {
-  width: 400px;
+  width: 25rem;
+  grid-column: 2/3;
+}
+
+@media (max-width: 650px) {
+  .Home img {
+    width: 16rem;
+  }
 }
 
 .Home .arrow {
