@@ -1,8 +1,8 @@
 import React from "react";
 import "./Tech.css";
 import { makeStyles } from "@material-ui/core/styles";
-import { SiNetlify, SiJavascript, SiCsharp } from "react-icons/si";
-import { DiHtml5, DiCss3, DiReact, DiSass, DiPython } from "react-icons/di";
+import { SiNetlify, SiJavascript, SiGatsby, SiNextDotJs } from "react-icons/si";
+import { DiHtml5, DiCss3, DiReact, DiSass } from "react-icons/di";
 import { FaBootstrap, FaNodeJs } from "react-icons/fa";
 import { AiFillGithub, AiFillApi } from "react-icons/ai";
 import Typography from "@material-ui/core/Typography";
@@ -70,20 +70,21 @@ export default function Tech() {
         </Typography>
         <div className="grid">
           <div>
-            <SiCsharp className={classes.techIcon} />
-            <Typography variant="body1">C#</Typography>
+            <SiGatsby className={classes.techIcon} />
+            <Typography variant="body1">Gatsby</Typography>
           </div>
+
           <div>
-            <FaNodeJs className={classes.techIcon} />
-            <Typography variant="body1">Node.js</Typography>
-          </div>
-          <div>
-            <DiPython className={classes.techIcon} />
-            <Typography variant="body1">Python.js</Typography>
+            <SiNextDotJs className={classes.techIcon} />
+            <Typography variant="body1">Next.js</Typography>
           </div>
           <div>
             <DiSass className={classes.techIcon} />
             <Typography variant="body1">Sass</Typography>
+          </div>
+          <div>
+            <FaNodeJs className={classes.techIcon} />
+            <Typography variant="body1">Node.js</Typography>
           </div>
         </div>
       </div>
