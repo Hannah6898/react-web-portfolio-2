@@ -13,6 +13,9 @@ const useStyles = makeStyles(() => ({
     marginTop: "30px",
     textAlign: "center",
   },
+  link: {
+    margin: "0 10px 0 10px",
+  },
 }));
 
 export default function Footer() {
@@ -25,6 +28,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/hannah-osibodu-63b524152/"
             target="_blank"
             rel="noreferrer"
+            className={classes.link}
           >
             <AiFillLinkedin className={classes.techIcon} />
           </Link>
@@ -32,13 +36,15 @@ export default function Footer() {
             href="https://github.com/Hannah6898"
             target="_blank"
             rel="noreferrer"
+            className={classes.link}
           >
             <AiFillGithub className={classes.techIcon} />
           </Link>
           <Link
-            href="https://github.com/Hannah6898"
+            href="https://www.instagram.com/hanosiportfolio/"
             target="_blank"
             rel="noreferrer"
+            className={classes.link}
           >
             <AiFillInstagram className={classes.techIcon} />
           </Link>

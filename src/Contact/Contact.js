@@ -26,7 +26,13 @@ export default function Contact() {
         Contact Me
       </Typography>
       <p>If you would like to get in touch, drop me an email!</p>
-      <Button className={classes.submit}>Email Me</Button>
+      <Button
+        className={classes.submit}
+        href="mailto:HannahOsibodu@gmail.com"
+        rel="noreferrer"
+      >
+        Email Me
+      </Button>
     </div>
   );
 }

@@ -4,9 +4,5 @@
 }
 
 .Projects img {
-  width: 280px;
-}
-
-.MuiAccordionDetails-root {
-  display: block;
+  width: 100px;
 }

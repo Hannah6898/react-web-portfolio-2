@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="Home" id="home">
       <div className={classes.root}>
-        <div class="grid">
+        <div className="grid">
           <article>
             <Typography variant="h4" color="primary" gutterBottom>
               Hi there!
