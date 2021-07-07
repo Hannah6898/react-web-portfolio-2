@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import PDF from "../img/HannahOsiboduCV.pdf";
 
@@ -15,7 +16,6 @@ const useStyles = makeStyles(() => ({
     color: "#da0463",
   },
   button: {
-    textAlign: "center",
     backgroundColor: "#da0463",
     color: "white",
     "&:hover": {
@@ -58,16 +58,18 @@ export default function About() {
           In my spare time I like to roller skate, watch TV and movies, and I’m
           currently getting into Formula 1.
         </Typography>
-        <Button
-          href={PDF}
-          target="_blank"
-          rel="noreferrer"
-          aria-label="CV"
-          variant="contained"
-          className={classes.button}
-        >
-          CV
-        </Button>
+        <Box textAlign="center">
+          <Button
+            href={PDF}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="CV"
+            variant="contained"
+            className={classes.button}
+          >
+            CV
+          </Button>
+        </Box>
       </div>
     </div>
   );
