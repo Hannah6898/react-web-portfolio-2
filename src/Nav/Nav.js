@@ -73,7 +73,7 @@ export default function Nav() {
           <Toolbar>
             <div className={classes.flex}>
               {" "}
-              <Link onClick={toggleHome}>
+              <Link to="/#" onClick={toggleHome}>
                 <img src={logo} alt="logo" className={classes.logo} />
               </Link>
             </div>
@@ -107,6 +107,7 @@ export default function Nav() {
                 >
                   <MenuItem>
                     <Link
+                      to="/#"
                       onClick={() => {
                         handleClose();
                         toggleHome();

@@ -24,13 +24,18 @@ export default function Home() {
       <div className={classes.root}>
         <div className="grid">
           <article>
-            <Typography variant="h4" color="primary" gutterBottom>
+            <Typography
+              component={"div"}
+              variant="h4"
+              color="primary"
+              gutterBottom
+            >
               Hi there!
             </Typography>
-            <Typography variant="h2" gutterBottom>
+            <Typography component={"div"} variant="h2" gutterBottom>
               I'm Hannah Osibodu
             </Typography>
-            <Typography variant="h5" gutterBottom>
+            <Typography component={"div"} variant="h5" gutterBottom>
               A Software Developer based in the UK
             </Typography>
             <Link
@@ -47,7 +52,7 @@ export default function Home() {
             >
               <AiFillGithub className={classes.techIcon} />
             </Link>
-            <Typography variant="body1">
+            <Typography component={"div"} variant="body1">
               I have skills in
               <Typewriter
                 options={{
@@ -67,9 +72,9 @@ export default function Home() {
               />
             </Typography>
           </article>
-          <side>
+          <div>
             <img src={coder} alt="Coder"></img>
-          </side>
+          </div>
           <Arrow />
         </div>
       </div>
