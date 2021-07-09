@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import WeatherApp from "../img/weather-app.png";
+import Portfolio from "../img/Portfolio.png";
 import Dictionary from "../img/Dictionary.png";
 import Youtube from "../img/Youtube-clone.png";
 import DrumKit from "../img/DrumKit.png";
@@ -44,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
   techIcon: {
     fontSize: "30px",
   },
-  projectImg: {
-    marginLeft: "25px",
+  block: {
+    display: "block",
   },
   link: {
     fontSize: "25px",
@@ -87,7 +88,7 @@ export default function Projects() {
             <div>
               <img
                 src={WeatherApp}
-                className={classes.projectImg}
+                className="weatherapp"
                 alt="WeatherApp"
               ></img>
             </div>
@@ -98,11 +99,19 @@ export default function Projects() {
               using Bootstrap, API's, real- life development workflow, hosting
               and JavaScript.
               <br />
-              <Link>
+              <Link
+                href="https://fervent-galileo-89d4fe.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <GoLink className={classes.link} />
               </Link>
-              <Link>
+              <Link
+                href="https://github.com/Hannah6898/react-weather-app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <AiFillGithub className={classes.link} />
               </Link>
@@ -124,27 +133,38 @@ export default function Projects() {
               HTML | CSS | JS | React | API | Netlify
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className={classes.block}>
             <div>
               <img
                 src={Dictionary}
-                className={classes.projectImg}
+                className="dictionary"
                 alt="Dictionary"
               ></img>
             </div>
-            <Typography className={classes.description}>
-              A dictionary application which displays meanings and images of a
-              users searched word; using multiple API calls.
-              <br />
-              <Link>
-                {" "}
-                <GoLink className={classes.link} />
-              </Link>
-              <Link>
-                {" "}
-                <AiFillGithub className={classes.link} />
-              </Link>
-            </Typography>
+
+            <div>
+              <Typography className={classes.description}>
+                A dictionary application which displays meanings and images of a
+                users searched word; using multiple API calls.
+                <br />
+                <Link
+                  href="https://gallant-boyd-0ddfe2.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <GoLink className={classes.link} />
+                </Link>
+                <Link
+                  href="https://github.com/Hannah6898/react-dictionary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <AiFillGithub className={classes.link} />
+                </Link>
+              </Typography>
+            </div>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -162,27 +182,34 @@ export default function Projects() {
               HTML | CSS | JS | React | Netlify
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className={classes.block}>
             <div>
-              <img
-                src={WeatherApp}
-                className={classes.projectImg}
-                alt="WeatherApp"
-              ></img>
+              <img src={Portfolio} className="dictionary" alt="portfolio"></img>
             </div>
-            <Typography className={classes.description}>
-              Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-              sit amet egestas eros, vitae egestas augue. Duis vel est augue.
-              <br />
-              <Link>
-                {" "}
-                <GoLink className={classes.link} />
-              </Link>
-              <Link>
-                {" "}
-                <AiFillGithub className={classes.link} />
-              </Link>
-            </Typography>
+            <div>
+              <Typography className={classes.description}>
+                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
+                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
+                augue.
+                <br />
+                <Link
+                  href="https://www.hannahosibodu.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <GoLink className={classes.link} />
+                </Link>
+                <Link
+                  href="https://github.com/Hannah6898/react-web-portfolio-2"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <AiFillGithub className={classes.link} />
+                </Link>
+              </Typography>
+            </div>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -200,27 +227,33 @@ export default function Projects() {
               HTML | CSS | JS | Netlify
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className={classes.block}>
             <div>
-              <img
-                src={Youtube}
-                className={classes.projectImg}
-                alt="Youtube"
-              ></img>
+              <img src={Youtube} className="dictionary" alt="Youtube"></img>
             </div>
-            <Typography className={classes.description}>
-              Developed a site clone of the YouTube homepage using HTML, CSS and
-              JavaScript.
-              <br />
-              <Link>
-                {" "}
-                <GoLink className={classes.link} />
-              </Link>
-              <Link>
-                {" "}
-                <AiFillGithub className={classes.link} />
-              </Link>
-            </Typography>
+            <div>
+              <Typography className={classes.description}>
+                Developed a site clone of the YouTube homepage using HTML, CSS
+                and JavaScript.
+                <br />
+                <Link
+                  href="https://elegant-sinoussi-498e6f.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <GoLink className={classes.link} />
+                </Link>
+                <Link
+                  href="https://github.com/Hannah6898/Youtube-Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <AiFillGithub className={classes.link} />
+                </Link>
+              </Typography>
+            </div>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -240,27 +273,33 @@ export default function Projects() {
               HTML | CSS | JS | Netlify
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className={classes.block}>
             <div>
-              <img
-                src={DrumKit}
-                className={classes.projectImg}
-                alt="DrumKit"
-              ></img>
+              <img src={DrumKit} className="dictionary" alt="DrumKit"></img>
             </div>
-            <Typography className={classes.description}>
-              Created a JavaScript Drum kit using Keyboard events and styled
-              using CSS grid.
-              <br />
-              <Link>
-                {" "}
-                <GoLink className={classes.link} />
-              </Link>
-              <Link>
-                {" "}
-                <AiFillGithub className={classes.link} />
-              </Link>
-            </Typography>
+            <div>
+              <Typography className={classes.description}>
+                Created a JavaScript Drum kit using Keyboard events and styled
+                using CSS grid.
+                <br />
+                <Link
+                  href="https://dreamy-kalam-3b5e13.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <GoLink className={classes.link} />
+                </Link>
+                <Link
+                  href="https://github.com/Hannah6898/JavaScript-Drum-Kit"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <AiFillGithub className={classes.link} />
+                </Link>
+              </Typography>
+            </div>
           </AccordionDetails>
         </Accordion>
       </div>
