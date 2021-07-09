@@ -2,27 +2,26 @@
   animation: fade-in-fwd 1.5s;
 }
 
-.Home .grid {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, minmax(100px, auto));
+.Home .container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .Home article {
   padding-left: 10px;
-  grid-column: 1/2;
 }
 
 .Home img {
   width: 25rem;
-  grid-column: 2/3;
 }
 
 @media (max-width: 650px) {
   .Home img {
-    width: 16rem;
+    display: none;
+  }
+
+  .Home article {
+    text-align: center;
   }
 }
 

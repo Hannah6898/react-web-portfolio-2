@@ -21,8 +21,8 @@ export default function Home() {
 
   return (
     <div className="Home" id="home">
-      <div className={classes.root}>
-        <div className="grid">
+      <div>
+        <div className="container">
           <article>
             <Typography
               component={"div"}
@@ -75,8 +75,9 @@ export default function Home() {
           <div>
             <img src={coder} alt="Coder"></img>
           </div>
-          <Arrow />
         </div>
+
+        <Arrow />
       </div>
     </div>
   );
