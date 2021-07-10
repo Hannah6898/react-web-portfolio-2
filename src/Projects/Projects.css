@@ -4,10 +4,11 @@
 }
 
 .Projects .weatherapp {
-  width: 200px;
+  aspect-ratio: attr(200) / attr(340);
   margin-left: 20px;
 }
 
 .Projects .dictionary {
+  aspect-ratio: attr(300) / attr(165);
   width: 300px;
 }
