@@ -22,15 +22,21 @@ export default function Contact() {
   const classes = useStyles();
   return (
     <div className="Contact" id="contact">
-      <Typography variant="h4">Contact Me</Typography>
-      <p>If you would like to get in touch, drop me an email!</p>
-      <Button
-        className={classes.submit}
-        href="mailto:HannahOsibodu@gmail.com"
-        rel="noreferrer"
-      >
-        Email Me
-      </Button>
+      <div>
+        <Typography variant="h4">Contact Me</Typography>
+      </div>
+      <div>
+        <p>If you would like to get in touch, drop me an email!</p>
+      </div>
+      <div>
+        <Button
+          className={classes.submit}
+          href="mailto:HannahOsibodu@gmail.com"
+          rel="noreferrer"
+        >
+          Email Me
+        </Button>
+      </div>
     </div>
   );
 }

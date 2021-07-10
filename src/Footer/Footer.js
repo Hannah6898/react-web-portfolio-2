@@ -21,7 +21,7 @@ const useStyles = makeStyles(() => ({
 export default function Footer() {
   const classes = useStyles();
   return (
-    <div className="Footer">
+    <div className="Footer" id="footer">
       <div className={classes.footer}>
         <div>
           <Link

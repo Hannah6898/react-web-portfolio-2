@@ -41,9 +41,6 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       cursor: "pointer",
     },
-    "&.active": {
-      color: "#da0463",
-    },
   },
 }));
 
