@@ -22,9 +22,7 @@ export default function Contact() {
   const classes = useStyles();
   return (
     <div className="Contact" id="contact">
-      <Typography variant="h4" gutterBottom="true">
-        Contact Me
-      </Typography>
+      <Typography variant="h4">Contact Me</Typography>
       <p>If you would like to get in touch, drop me an email!</p>
       <Button
         className={classes.submit}

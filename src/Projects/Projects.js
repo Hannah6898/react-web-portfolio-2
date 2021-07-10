@@ -81,7 +81,7 @@ export default function Projects() {
           >
             <Typography className={classes.heading}>Weather App</Typography>
             <Typography className={classes.secondaryHeading}>
-              HTML | CSS | JS | React | API | Netlify
+              HTML | CSS | JS | React | API | Bootstrap | Netlify
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -144,8 +144,9 @@ export default function Projects() {
 
             <div>
               <Typography className={classes.description}>
-                A dictionary application which displays meanings and images of a
-                users searched word; using multiple API calls.
+                I used my knowledge of React to build a working dictionary app
+                incorporating coding best practices, along with the most popular
+                tools and technologies.
                 <br />
                 <Link
                   href="https://gallant-boyd-0ddfe2.netlify.app/"
@@ -179,7 +180,7 @@ export default function Projects() {
           >
             <Typography className={classes.heading}>Portfolio</Typography>
             <Typography className={classes.secondaryHeading}>
-              HTML | CSS | JS | React | Netlify
+              HTML | CSS | JS | React | Material UI | Netlify
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={classes.block}>
@@ -188,9 +189,9 @@ export default function Projects() {
             </div>
             <div>
               <Typography className={classes.description}>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+                Made my personal portfolio using React and Material UI.
+                Furthermore, I used smooth scroll to create seamless navigation
+                between components.
                 <br />
                 <Link
                   href="https://www.hannahosibodu.com/"

@@ -16,6 +16,9 @@ const useStyles = makeStyles(() => ({
     fontSize: "45px",
     color: "#da0463",
   },
+  header: {
+    marginBottom: "10px",
+  },
 }));
 
 export default function Tech() {
@@ -23,7 +26,7 @@ export default function Tech() {
   return (
     <div className="Tech" id="tech">
       <div className={classes.root}>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" className={classes.header}>
           Tech Stack
         </Typography>
         <Typography variant="body1">

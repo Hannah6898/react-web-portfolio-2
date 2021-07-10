@@ -14,6 +14,10 @@ const useStyles = makeStyles(() => ({
     margin: "25px 10px 20px 10px",
     color: "#da0463",
   },
+
+  header: {
+    marginBottom: "10px",
+  },
 }));
 
 export default function Home() {
@@ -28,14 +32,22 @@ export default function Home() {
               component={"div"}
               variant="h4"
               color="primary"
-              gutterBottom
+              className={classes.header}
             >
               Hi there!
             </Typography>
-            <Typography component={"div"} variant="h2" gutterBottom>
+            <Typography
+              component={"div"}
+              variant="h2"
+              className={classes.header}
+            >
               I'm Hannah Osibodu
             </Typography>
-            <Typography component={"div"} variant="h5" gutterBottom>
+            <Typography
+              component={"div"}
+              variant="h5"
+              className={classes.header}
+            >
               A Software Developer based in the UK
             </Typography>
             <Link

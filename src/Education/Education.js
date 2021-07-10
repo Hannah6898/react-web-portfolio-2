@@ -10,6 +10,7 @@ const useStyles = makeStyles(() => ({
   },
   header: {
     textAlign: "center",
+    marginBottom: "10px",
   },
   pink: {
     paddingLeft: "5px",
@@ -25,12 +26,12 @@ export default function Education() {
   return (
     <div className="Education" id="education">
       <div className={classes.root}>
-        <Typography variant="h4" gutterBottom className={classes.header}>
+        <Typography variant="h4" className={classes.header}>
           Education
         </Typography>
         <Typography variant="h6">Certificates</Typography>
         <div className={classes.certificate}>
-          <Typography variant="body1" gutterBottom>
+          <Typography variant="body1">
             SheCodes React | Issued Apr 2021
             <Link
               href="https://www.shecodes.io/certificates/bfa3e58394a09554e62af5db21128917"
@@ -42,7 +43,7 @@ export default function Education() {
           </Typography>
         </div>
         <div className={classes.certificate}>
-          <Typography variant="body1" gutterBottom>
+          <Typography variant="body1">
             {" "}
             SheCodes Plus | Issued Mar 2021
             <Link
@@ -55,7 +56,7 @@ export default function Education() {
           </Typography>
         </div>
         <div className={classes.certificate}>
-          <Typography variant="body1" gutterBottom>
+          <Typography variant="body1">
             SheCodes Basics | Issued Feb 2021{" "}
             <Link
               href="https://www.shecodes.io/certificates/02ed5586804bd6c78fc1b9d58bc8ea47"
