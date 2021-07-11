@@ -146,9 +146,9 @@ export default function Projects() {
 
             <div>
               <Typography className={classes.description}>
-                I used my knowledge of React to build a working dictionary app
-                incorporating coding best practices, along with the most popular
-                tools and technologies.
+                I've used my knowledge of React to build a working dictionary
+                app incorporating coding best practices, along with the most
+                popular tools and technologies.
               </Typography>
 
               <Link
