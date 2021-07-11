@@ -3,11 +3,16 @@
   padding-bottom: 20px;
 }
 
-.Projects img .weatherapp {
-  aspect-ratio: attr(200) / attr(340);
-  margin-left: 20px;
+.Projects .weatherapp {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px auto;
 }
 
-.Projects img .dictionary {
-  aspect-ratio: attr(300) / attr(165);
+.Projects .dictionary {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px auto;
 }

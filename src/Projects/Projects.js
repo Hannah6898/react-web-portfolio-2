@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     display: "block",
   },
   link: {
-    fontSize: "25px",
+    fontSize: "30px",
     margin: "10px",
     color: "white",
   },
@@ -84,7 +84,7 @@ export default function Projects() {
               HTML | CSS | JS | React | API | Bootstrap | Netlify
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className={classes.block}>
             <div>
               <img
                 src={WeatherApp}
@@ -98,26 +98,26 @@ export default function Projects() {
               Open Weather Map API. Through this project I became skilled in
               using Bootstrap, API's, real- life development workflow, hosting
               and JavaScript.
-              <br />
-              <Link
-                href="https://fervent-galileo-89d4fe.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="See Live"
-              >
-                {" "}
-                <GoLink className={classes.link} />
-              </Link>
-              <Link
-                href="https://github.com/Hannah6898/react-weather-app"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Github"
-              >
-                {" "}
-                <AiFillGithub className={classes.link} />
-              </Link>
             </Typography>
+
+            <Link
+              href="https://fervent-galileo-89d4fe.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="See Live"
+            >
+              {" "}
+              <GoLink className={classes.link} />
+            </Link>
+            <Link
+              href="https://github.com/Hannah6898/react-weather-app"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Github"
+            >
+              {" "}
+              <AiFillGithub className={classes.link} />
+            </Link>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -149,26 +149,26 @@ export default function Projects() {
                 I used my knowledge of React to build a working dictionary app
                 incorporating coding best practices, along with the most popular
                 tools and technologies.
-                <br />
-                <Link
-                  href="https://gallant-boyd-0ddfe2.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="See Live"
-                >
-                  {" "}
-                  <GoLink className={classes.link} />
-                </Link>
-                <Link
-                  href="https://github.com/Hannah6898/react-dictionary"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Github"
-                >
-                  {" "}
-                  <AiFillGithub className={classes.link} />
-                </Link>
               </Typography>
+
+              <Link
+                href="https://gallant-boyd-0ddfe2.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="See Live"
+              >
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link
+                href="https://github.com/Hannah6898/react-dictionary"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Github"
+              >
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </div>
           </AccordionDetails>
         </Accordion>
@@ -196,26 +196,26 @@ export default function Projects() {
                 Made my personal portfolio using React and Material UI.
                 Furthermore, I used smooth scroll to create seamless navigation
                 between components.
-                <br />
-                <Link
-                  href="https://www.hannahosibodu.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="See Live"
-                >
-                  {" "}
-                  <GoLink className={classes.link} />
-                </Link>
-                <Link
-                  href="https://github.com/Hannah6898/react-web-portfolio-2"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Github"
-                >
-                  {" "}
-                  <AiFillGithub className={classes.link} />
-                </Link>
               </Typography>
+
+              <Link
+                href="https://www.hannahosibodu.com/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="See Live"
+              >
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link
+                href="https://github.com/Hannah6898/react-web-portfolio-2"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Github"
+              >
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </div>
           </AccordionDetails>
         </Accordion>
@@ -242,26 +242,26 @@ export default function Projects() {
               <Typography className={classes.description}>
                 Developed a site clone of the YouTube homepage using HTML, CSS
                 and JavaScript.
-                <br />
-                <Link
-                  href="https://elegant-sinoussi-498e6f.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="See Live"
-                >
-                  {" "}
-                  <GoLink className={classes.link} />
-                </Link>
-                <Link
-                  href="https://github.com/Hannah6898/Youtube-Clone"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Github"
-                >
-                  {" "}
-                  <AiFillGithub className={classes.link} />
-                </Link>
               </Typography>
+
+              <Link
+                href="https://elegant-sinoussi-498e6f.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="See Live"
+              >
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link
+                href="https://github.com/Hannah6898/Youtube-Clone"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Github"
+              >
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </div>
           </AccordionDetails>
         </Accordion>
@@ -290,26 +290,26 @@ export default function Projects() {
               <Typography className={classes.description}>
                 Created a JavaScript Drum kit using Keyboard events and styled
                 using CSS grid.
-                <br />
-                <Link
-                  href="https://dreamy-kalam-3b5e13.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="See Live"
-                >
-                  {" "}
-                  <GoLink className={classes.link} />
-                </Link>
-                <Link
-                  href="https://github.com/Hannah6898/JavaScript-Drum-Kit"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Github"
-                >
-                  {" "}
-                  <AiFillGithub className={classes.link} />
-                </Link>
               </Typography>
+
+              <Link
+                href="https://dreamy-kalam-3b5e13.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="See Live"
+              >
+                {" "}
+                <GoLink className={classes.link} />
+              </Link>
+              <Link
+                href="https://github.com/Hannah6898/JavaScript-Drum-Kit"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Github"
+              >
+                {" "}
+                <AiFillGithub className={classes.link} />
+              </Link>
             </div>
           </AccordionDetails>
         </Accordion>
