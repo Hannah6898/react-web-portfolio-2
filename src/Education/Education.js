@@ -29,7 +29,7 @@ export default function Education() {
         <Typography variant="h4" className={classes.header}>
           Education
         </Typography>
-        <Typography variant="h6">Certificates</Typography>
+        <Typography variant="h5">Certificates</Typography>
         <div className={classes.certificate}>
           <Typography variant="body1">
             SheCodes React | Issued Apr 2021

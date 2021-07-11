@@ -272,8 +272,8 @@ export default function Projects() {
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon className={classes.expand} />}
-            aria-controls="panel3bh-content"
-            id="panel3bh-header"
+            aria-controls="panel5bh-content"
+            id="panel5bh-header"
           >
             <Typography className={classes.heading}>
               JavaScript Drum Kit
