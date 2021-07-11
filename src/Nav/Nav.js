@@ -26,8 +26,8 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
   },
   logo: {
-    aspectRatio: "attr(50) / attr(48)",
     width: "50px",
+    height: "48px",
     "&:hover": {
       cursor: "pointer",
     },
