@@ -196,7 +196,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
-                  aria-labelledby="Home"
+                  aria-label="Home"
                 >
                   Home
                 </Link>
@@ -208,7 +208,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
-                  aria-labelledby="About"
+                  aria-label="About"
                 >
                   About
                 </Link>
@@ -220,7 +220,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
-                  aria-labelledby="Projects"
+                  aria-label="Projects"
                 >
                   Projects
                 </Link>
@@ -232,7 +232,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
-                  aria-labelledby="Contact"
+                  aria-label="Contact"
                 >
                   Contact
                 </Link>
