@@ -12,7 +12,8 @@
 }
 
 .Home img {
-  width: 25rem;
+  width: 400px;
+  height: 215px;
 }
 
 @media (max-width: 650px) {
