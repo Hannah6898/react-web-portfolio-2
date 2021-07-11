@@ -103,6 +103,7 @@ export default function Projects() {
                 href="https://fervent-galileo-89d4fe.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="See Live"
               >
                 {" "}
                 <GoLink className={classes.link} />
@@ -111,6 +112,7 @@ export default function Projects() {
                 href="https://github.com/Hannah6898/react-weather-app"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Github"
               >
                 {" "}
                 <AiFillGithub className={classes.link} />
@@ -152,6 +154,7 @@ export default function Projects() {
                   href="https://gallant-boyd-0ddfe2.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="See Live"
                 >
                   {" "}
                   <GoLink className={classes.link} />
@@ -160,6 +163,7 @@ export default function Projects() {
                   href="https://github.com/Hannah6898/react-dictionary"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   {" "}
                   <AiFillGithub className={classes.link} />
@@ -197,6 +201,7 @@ export default function Projects() {
                   href="https://www.hannahosibodu.com/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="See Live"
                 >
                   {" "}
                   <GoLink className={classes.link} />
@@ -205,6 +210,7 @@ export default function Projects() {
                   href="https://github.com/Hannah6898/react-web-portfolio-2"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   {" "}
                   <AiFillGithub className={classes.link} />
@@ -241,6 +247,7 @@ export default function Projects() {
                   href="https://elegant-sinoussi-498e6f.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="See Live"
                 >
                   {" "}
                   <GoLink className={classes.link} />
@@ -249,6 +256,7 @@ export default function Projects() {
                   href="https://github.com/Hannah6898/Youtube-Clone"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   {" "}
                   <AiFillGithub className={classes.link} />
@@ -287,6 +295,7 @@ export default function Projects() {
                   href="https://dreamy-kalam-3b5e13.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="See Live"
                 >
                   {" "}
                   <GoLink className={classes.link} />
@@ -295,6 +304,7 @@ export default function Projects() {
                   href="https://github.com/Hannah6898/JavaScript-Drum-Kit"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Github"
                 >
                   {" "}
                   <AiFillGithub className={classes.link} />

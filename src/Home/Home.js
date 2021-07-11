@@ -54,6 +54,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/hannah-osibodu-63b524152/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Linkedin"
             >
               <AiFillLinkedin className={classes.techIcon} />
             </Link>
@@ -61,6 +62,7 @@ export default function Home() {
               href="https://github.com/Hannah6898"
               target="_blank"
               rel="noreferrer"
+              aria-label="Github"
             >
               <AiFillGithub className={classes.techIcon} />
             </Link>

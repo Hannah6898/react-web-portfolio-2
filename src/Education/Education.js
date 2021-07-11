@@ -37,6 +37,7 @@ export default function Education() {
               href="https://www.shecodes.io/certificates/bfa3e58394a09554e62af5db21128917"
               target="_blank"
               rel="noreferrer"
+              aria-label="SheCodes certificate"
             >
               <GoLink className={classes.pink} color="primary" />
             </Link>
@@ -50,6 +51,7 @@ export default function Education() {
               href="https://www.shecodes.io/certificates/d5e8d27ccd85b518a996a83aa132d98b"
               target="_blank"
               rel="noreferrer"
+              aria-label="SheCodes certificate"
             >
               <GoLink className={classes.pink} color="primary" />
             </Link>
@@ -62,6 +64,7 @@ export default function Education() {
               href="https://www.shecodes.io/certificates/02ed5586804bd6c78fc1b9d58bc8ea47"
               target="_blank"
               rel="noreferrer"
+              aria-label="SheCodes certificate"
             >
               <GoLink className={classes.pink} color="primary" />
             </Link>

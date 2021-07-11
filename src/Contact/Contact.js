@@ -33,6 +33,7 @@ export default function Contact() {
           className={classes.submit}
           href="mailto:HannahOsibodu@gmail.com"
           rel="noreferrer"
+          aria-labelledby="Email me"
         >
           Email Me
         </Button>

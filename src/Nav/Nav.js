@@ -70,7 +70,7 @@ export default function Nav() {
           <Toolbar>
             <div className={classes.flex}>
               {" "}
-              <Link to="/#" onClick={toggleHome}>
+              <Link to="/#" onClick={toggleHome} aria-label="Home">
                 <img src={logo} alt="logo" className={classes.logo} />
               </Link>
             </div>
@@ -109,6 +109,7 @@ export default function Nav() {
                         handleClose();
                         toggleHome();
                       }}
+                      aria-labelledby="Home"
                     >
                       Home
                     </Link>
@@ -122,6 +123,7 @@ export default function Nav() {
                       smooth={true}
                       offset={-90}
                       duration={500}
+                      aria-labelledby="About"
                     >
                       About
                     </Link>
@@ -135,6 +137,7 @@ export default function Nav() {
                       smooth={true}
                       offset={-90}
                       duration={500}
+                      aria-labelledby="Education"
                     >
                       Education
                     </Link>
@@ -148,6 +151,7 @@ export default function Nav() {
                       smooth={true}
                       offset={-90}
                       duration={500}
+                      aria-labelledby="Tech Stack"
                     >
                       Tech Stack
                     </Link>
@@ -161,6 +165,7 @@ export default function Nav() {
                       smooth={true}
                       offset={-90}
                       duration={500}
+                      aria-labelledby="Project"
                     >
                       Projects
                     </Link>
@@ -174,6 +179,7 @@ export default function Nav() {
                       smooth={true}
                       offset={-90}
                       duration={500}
+                      aria-labelledby="Contact"
                     >
                       Contact
                     </Link>
@@ -190,6 +196,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
+                  aria-labelledby="Home"
                 >
                   Home
                 </Link>
@@ -201,6 +208,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
+                  aria-labelledby="About"
                 >
                   About
                 </Link>
@@ -212,6 +220,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
+                  aria-labelledby="Projects"
                 >
                   Projects
                 </Link>
@@ -223,6 +232,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-90}
                   duration={500}
+                  aria-labelledby="Contact"
                 >
                   Contact
                 </Link>

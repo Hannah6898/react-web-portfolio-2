@@ -29,6 +29,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             className={classes.link}
+            aria-label="Linkedin"
           >
             <AiFillLinkedin className={classes.techIcon} />
           </Link>
@@ -37,6 +38,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             className={classes.link}
+            aria-label="Github"
           >
             <AiFillGithub className={classes.techIcon} />
           </Link>
@@ -45,6 +47,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             className={classes.link}
+            aria-label="Instagram"
           >
             <AiFillInstagram className={classes.techIcon} />
           </Link>

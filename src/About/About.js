@@ -64,7 +64,7 @@ export default function About() {
             href={PDF}
             target="_blank"
             rel="noreferrer"
-            aria-label="CV"
+            aria-labelledby="CV"
             variant="contained"
             className={classes.button}
           >
