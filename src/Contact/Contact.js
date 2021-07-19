@@ -26,7 +26,9 @@ export default function Contact() {
         <Typography variant="h4">Contact Me</Typography>
       </div>
       <div>
-        <p>If you would like to get in touch, drop me an email!</p>
+        <Typography variant="body2">
+          If you would like to get in touch, drop me an email!
+        </Typography>
       </div>
       <div>
         <Button

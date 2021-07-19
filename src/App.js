@@ -10,11 +10,6 @@ import Footer from "./Footer/Footer";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
 const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: "#da0463",
-    },
-  },
   typography: {
     fontFamily: "Noto Sans JP",
   },

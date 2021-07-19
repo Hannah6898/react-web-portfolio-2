@@ -15,6 +15,7 @@ const useStyles = makeStyles(() => ({
   pink: {
     paddingLeft: "5px",
     fontSize: "23px",
+    color: "#da0463",
   },
   certificate: {
     margin: "10px 0 20px 0",

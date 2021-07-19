@@ -1,5 +1,4 @@
 import React from "react";
-import "./Nav.css";
 import logo from "../img/Logo.png";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -14,6 +13,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    fontFamily: "Noto Sans JP",
   },
 
   appBar: {
@@ -32,11 +32,10 @@ const useStyles = makeStyles((theme) => ({
       cursor: "pointer",
     },
   },
-
   flex: {
     flexGrow: 1,
   },
-  links: {
+  navLinks: {
     color: "black",
     padding: "0 10px 0 10px",
     "&:hover": {
@@ -190,7 +189,7 @@ export default function Nav() {
             ) : (
               <div>
                 <Link
-                  className={classes.links}
+                  className={classes.navLinks}
                   activeClass="active"
                   to="nav"
                   spy={true}
@@ -202,7 +201,7 @@ export default function Nav() {
                   Home
                 </Link>
                 <Link
-                  className={classes.links}
+                  className={classes.navLinks}
                   activeClass="active"
                   to="about"
                   spy={true}
@@ -214,7 +213,7 @@ export default function Nav() {
                   About
                 </Link>
                 <Link
-                  className={classes.links}
+                  className={classes.navLinks}
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -226,7 +225,7 @@ export default function Nav() {
                   Projects
                 </Link>
                 <Link
-                  className={classes.links}
+                  className={classes.navLinks}
                   activeClass="active"
                   to="contact"
                   spy={true}

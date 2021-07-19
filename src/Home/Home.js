@@ -15,6 +15,10 @@ const useStyles = makeStyles(() => ({
     color: "#da0463",
   },
 
+  textColor: {
+    color: "#da0463",
+  },
+
   header: {
     marginBottom: "10px",
   },
@@ -31,8 +35,7 @@ export default function Home() {
             <Typography
               component={"div"}
               variant="h4"
-              color="primary"
-              className={classes.header}
+              className={`${classes.header} ${classes.textColor}`}
             >
               Hi there!
             </Typography>
