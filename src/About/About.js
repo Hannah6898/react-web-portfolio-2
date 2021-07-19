@@ -13,9 +13,6 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
     marginBottom: "10px",
   },
-  pink: {
-    color: "#da0463",
-  },
   button: {
     marginTop: "10px",
     backgroundColor: "#da0463",
@@ -37,8 +34,8 @@ export default function About() {
           About Me
         </Typography>
         <Typography variant="body1">
-          I’m Hannah, a <span className={classes.pink}>Software Developer</span>{" "}
-          based in Kent currently looking for my first junior developer role.
+          I’m Hannah, a Software Developer based in Kent currently looking for
+          my first junior developer role.
         </Typography>
         <Typography variant="body1">
           I began learning to code at the beginning of this year and found the

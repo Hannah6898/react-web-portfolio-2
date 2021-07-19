@@ -12,7 +12,7 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
     marginBottom: "10px",
   },
-  pink: {
+  links: {
     paddingLeft: "5px",
     fontSize: "23px",
     color: "#da0463",
@@ -40,7 +40,7 @@ export default function Education() {
               rel="noreferrer"
               aria-label="SheCodes certificate"
             >
-              <GoLink className={classes.pink} color="primary" />
+              <GoLink className={classes.links} />
             </Link>
           </Typography>
         </div>
@@ -54,7 +54,7 @@ export default function Education() {
               rel="noreferrer"
               aria-label="SheCodes certificate"
             >
-              <GoLink className={classes.pink} color="primary" />
+              <GoLink className={classes.links} />
             </Link>
           </Typography>
         </div>
@@ -67,7 +67,7 @@ export default function Education() {
               rel="noreferrer"
               aria-label="SheCodes certificate"
             >
-              <GoLink className={classes.pink} color="primary" />
+              <GoLink className={classes.links} />
             </Link>
           </Typography>
         </div>
