@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "@material-ui/core/Link";
-import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
@@ -43,13 +47,13 @@ export default function Footer() {
             <AiFillGithub className={classes.techIcon} />
           </Link>
           <Link
-            href="https://www.instagram.com/hanosiportfolio/"
+            href="https://twitter.com/hanc0des"
             target="_blank"
             rel="noreferrer"
             className={classes.link}
             aria-label="Instagram"
           >
-            <AiFillInstagram className={classes.techIcon} />
+            <AiFillTwitterCircle className={classes.techIcon} />
           </Link>
         </div>
         <Typography variant="body1">Developed by Hannah Osibodu</Typography>
