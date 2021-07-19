@@ -9,7 +9,7 @@ import coder from "../img/coder.svg";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(() => ({
-  techIcon: {
+  socialMediaIcon: {
     fontSize: "40px",
     margin: "25px 10px 20px 10px",
     color: "#da0463",
@@ -59,7 +59,7 @@ export default function Home() {
               rel="noreferrer"
               aria-label="Linkedin"
             >
-              <AiFillLinkedin className={classes.techIcon} />
+              <AiFillLinkedin className={classes.socialMediaIcon} />
             </Link>
             <Link
               href="https://github.com/Hannah6898"
@@ -67,7 +67,7 @@ export default function Home() {
               rel="noreferrer"
               aria-label="Github"
             >
-              <AiFillGithub className={classes.techIcon} />
+              <AiFillGithub className={classes.socialMediaIcon} />
             </Link>
             <Typography component={"div"} variant="body1">
               I have skills in

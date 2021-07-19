@@ -9,13 +9,12 @@ const useStyles = makeStyles(() => ({
     "&:hover": {
       cursor: "pointer",
     },
-    marginTop: "50px",
   },
 }));
 export default function Arrow() {
   const classes = useStyles();
   return (
-    <div className="arrow">
+    <div className="Arrow">
       {" "}
       <Link
         activeClass="active"
