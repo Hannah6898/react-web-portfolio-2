@@ -1,16 +1,11 @@
-.Projects {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.Projects .weatherapp {
+.Projects .portrait-img {
   max-width: 100%;
   display: block;
   height: auto;
   margin: 10px auto;
 }
 
-.Projects .dictionary {
+.Projects .landscape-img {
   max-width: 100%;
   display: block;
   height: auto;
