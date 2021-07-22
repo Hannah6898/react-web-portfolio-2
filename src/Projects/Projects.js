@@ -88,11 +88,12 @@ export default function Projects() {
                 ></img>
               </div>
               <Typography variant="body1">
-                A weather application which dynamically displays the present
-                weather of the users desired location and current location,
-                using Open Weather Map API. Through this project I became
-                skilled in using Bootstrap, API's, real- life development
-                workflow, hosting and JavaScript.
+                A react application using the Open Weather Map API and hosted on
+                Netlfiy. This app pulls weather information from any city in the
+                world as well as the users current location. <br />
+                This app features: <br />
+                - React hooks such as useEffect and useStates <br />
+                - Multiple API calls to fetch Weather data. <br />
               </Typography>
 
               <Link
@@ -190,9 +191,9 @@ export default function Projects() {
               </div>
               <div>
                 <Typography>
-                  Made my personal portfolio using React and Material UI.
-                  Furthermore, I used smooth scroll to create seamless
-                  navigation between components.
+                  Created my personal portfolio using React and Material UI.
+                  This project was also able to obtain an average score of 99.75
+                  for desktop devices on the Lighthouse test.
                 </Typography>
 
                 <Link
