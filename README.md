@@ -10,7 +10,7 @@ A site created to demonstrate my software development skills and showcase my pro
 
 ### 3. [Lessons Learnt](#lessons-learnt)
 
-### 4. [SEO](#seo)
+### 4. [Google Lighthouse test](#google-lighthouse-test)
 
 ### 5. [Future Work](#future-work)
 
@@ -34,7 +34,7 @@ Having finished this project, here are some key areas I feel I've developed in:\
 • Using Material UI and customising default elements\
 • CSS grid
 
-## SEO
+## Google Lighthouse Test
 
 Received an average score of 99.75 across all Google Lighthouse metrics on desktop.
 
