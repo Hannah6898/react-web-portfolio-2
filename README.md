@@ -26,17 +26,19 @@ I leveraged external libraries to create smooth scrolling on the site and implem
 • [React icons](https://react-icons.github.io/react-icons/search)\
 • [React scroll](https://www.npmjs.com/package/react-scroll)\
 • [Typewriter- effect](https://www.npmjs.com/package/typewriter-effect)\
-• HTML/ CSS/ JS\
+• HTML/ CSS/ JS
 
 ## Lessons Learnt
 
 Having finished this project, here are some key areas I feel I've developed in:\
 • Using Material UI can customising default elements\
-• CSS grid\
+• CSS grid
 
 ## SEO
 
 Received an average score of 99.5 across all Google Lighthouse metrics on desktop.
+
+![SEO](https://user-images.githubusercontent.com/69045334/126650507-e50fd7ff-e935-48fe-93d8-8f75e250f62a.png)
 
 ## Future Work
 
