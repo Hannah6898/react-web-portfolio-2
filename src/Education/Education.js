@@ -33,6 +33,19 @@ export default function Education() {
         <Typography variant="h5">Certificates</Typography>
         <div className={classes.certificate}>
           <Typography variant="body1">
+            AWS Certified Cloud Practitioner | Issued Jul 2021
+            <Link
+              href="https://www.credly.com/badges/8e0778f5-0e4a-4ece-beec-4fb8997a53dc/public_url"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="AWS certificate"
+            >
+              <GoLink className={classes.links} />
+            </Link>
+          </Typography>
+        </div>
+        <div className={classes.certificate}>
+          <Typography variant="body1">
             SheCodes React | Issued Apr 2021
             <Link
               href="https://www.shecodes.io/certificates/bfa3e58394a09554e62af5db21128917"
