@@ -14,7 +14,7 @@ const useStyles = makeStyles(() => ({
 export default function Arrow() {
   const classes = useStyles();
   return (
-    <div className="Arrow">
+    <div className="arrow">
       {" "}
       <Link
         activeClass="active"
@@ -23,6 +23,7 @@ export default function Arrow() {
         smooth={true}
         offset={-90}
         duration={500}
+        aria-label="arrow down"
       >
         <IoIosArrowDown className={classes.arrow} />
       </Link>

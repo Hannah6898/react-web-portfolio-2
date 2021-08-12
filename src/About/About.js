@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
 export default function About() {
   const classes = useStyles();
   return (
-    <div className="About" id="about">
+    <div className="about" id="about">
       <div className={classes.root}>
         <Typography variant="h4" className={classes.header}>
           About Me

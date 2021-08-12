@@ -30,7 +30,7 @@ const useStyles = makeStyles(() => ({
 export default function Tech() {
   const classes = useStyles();
   return (
-    <div className="Tech" id="tech">
+    <div className="tech" id="tech">
       <div className={classes.root}>
         <Typography variant="h4" className={classes.header}>
           Tech Stack

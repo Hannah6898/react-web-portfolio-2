@@ -28,7 +28,7 @@ export default function Home() {
   const classes = useStyles();
 
   return (
-    <div className="Home" id="home">
+    <div className="home" id="home">
       <div>
         <div className="container">
           <article>

@@ -58,7 +58,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="Projects" id="projects">
+    <div className="projects" id="projects">
       <div className={classes.root}>
         <Typography variant="h4" gutterBottom>
           Projects

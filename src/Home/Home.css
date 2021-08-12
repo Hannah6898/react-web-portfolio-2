@@ -1,38 +1,38 @@
-.Home {
+.home {
   animation: fade-in-fwd 1.5s;
 }
 
-.Home .container {
+.home .container {
   display: flex;
   justify-content: space-around;
 }
 
-.Home article {
+.home article {
   padding-left: 20px;
 }
 
-.Home img {
+.home img {
   width: 400px;
   height: 215px;
 }
 
-.Home .Arrow {
+.home .arrow {
   text-align: center;
   animation: pulsate-bck 0.5s infinite;
 }
 
 @media (min-width: 830px) {
-  .Home .Arrow {
+  .home .arrow {
     margin-top: 140px;
   }
 }
 
 @media (max-width: 650px) {
-  .Home img {
+  .home img {
     display: none;
   }
 
-  .Home article {
+  .home article {
     text-align: center;
   }
 }

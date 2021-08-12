@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
 export default function Education() {
   const classes = useStyles();
   return (
-    <div className="Education" id="education">
+    <div className="education" id="education">
       <div className={classes.root}>
         <Typography variant="h4" className={classes.header}>
           Education

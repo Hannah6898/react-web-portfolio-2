@@ -64,7 +64,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="Nav" id="nav">
+    <div className="nav" id="nav">
       <div className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>

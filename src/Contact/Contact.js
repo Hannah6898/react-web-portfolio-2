@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Contact() {
   const classes = useStyles();
   return (
-    <div className="Contact" id="contact">
+    <div className="contact" id="contact">
       <div className={classes.root}>
         <div>
           <Typography variant="h4">Contact Me</Typography>
