@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import {
   SiNetlify,
   SiJavascript,
-  SiGatsby,
+  SiCsharp,
   SiNextDotJs,
   SiPython,
 } from "react-icons/si";
@@ -79,11 +79,6 @@ export default function Tech() {
         </Typography>
         <div className="grid">
           <div>
-            <SiGatsby className={classes.techIcon} />
-            <Typography variant="body1">Gatsby</Typography>
-          </div>
-
-          <div>
             <SiNextDotJs className={classes.techIcon} />
             <Typography variant="body1">Next.js</Typography>
           </div>
@@ -94,6 +89,10 @@ export default function Tech() {
           <div>
             <FaNodeJs className={classes.techIcon} />
             <Typography variant="body1">Node.js</Typography>
+          </div>
+          <div>
+            <SiCsharp className={classes.techIcon} />
+            <Typography variant="body1">C#</Typography>
           </div>
         </div>
       </div>
