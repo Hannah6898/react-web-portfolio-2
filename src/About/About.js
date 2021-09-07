@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
-import PDF from "../img/HannahOsiboduCV.pdf";
+import PDF from "../pdf/HannahOsiboduCV.pdf";
 
 const useStyles = makeStyles(() => ({
   root: {
