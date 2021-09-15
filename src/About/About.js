@@ -31,7 +31,7 @@ export default function About() {
     <div className="about" id="about">
       <div className={classes.root}>
         <Typography variant="h4" className={classes.header}>
-          About Me
+          About
         </Typography>
         <Typography variant="body1">
           I’m Hannah, a Software Developer based in Kent currently looking for
