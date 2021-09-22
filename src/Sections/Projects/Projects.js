@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Projects.module.css";
-import Card from "../../Components/Card/Card";
+import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
@@ -11,18 +11,18 @@ const Projects = () => {
       <div className={classes.container}>
         <div className={classes.leftSide}>
           {" "}
-          <Card />
+          <ProjectCard />
         </div>
 
-        <Card />
+        <ProjectCard />
         <div className={classes.leftSide}>
           {" "}
-          <Card />
+          <ProjectCard />
         </div>
-        <Card />
+        <ProjectCard />
         <div className={classes.leftSide}>
           {" "}
-          <Card />
+          <ProjectCard />
         </div>
       </div>
     </section>

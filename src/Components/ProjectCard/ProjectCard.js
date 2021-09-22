@@ -1,12 +1,12 @@
 import React from "react";
-import classes from "./Card.module.css";
+import classes from "./ProjectCard.module.css";
 import ReactChip from "../Chips/ReactChip";
 import JSChip from "../Chips/JSChip";
 import CSSChip from "../Chips/CssChip";
 import BootstrapChip from "../Chips/BootstrapChip";
 import APIChip from "../Chips/APIChip";
 
-const Card = () => {
+const ProjectCard = () => {
   return (
     <div>
       <div className={classes.card}>
@@ -34,4 +34,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default ProjectCard;

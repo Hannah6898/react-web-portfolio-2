@@ -1,0 +1,37 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 32px;
+  padding: 50px 55px 0px 54px;
+  width: 588px;
+  height: 512px;
+}
+
+.imgContainer {
+  background-color: rgba(203, 47, 101, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 4px 38px 7px rgba(0, 0, 0, 0.14);
+  width: 479px;
+  height: 324px;
+}
+
+.textContainer {
+  margin-top: 41px;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headingContainer h4 {
+  color: #373535;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.chips {
+  display: flex;
+}

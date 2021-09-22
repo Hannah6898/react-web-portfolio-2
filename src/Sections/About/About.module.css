@@ -1,0 +1,37 @@
+.heading h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 60px;
+  color: #373535;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img img {
+  width: 445px;
+  height: 496px;
+}
+
+.textContainer p {
+  color: #373535;
+  font-size: 20px;
+  line-height: 35px;
+  width: 688px;
+}
+
+.btn {
+  background: rgba(249, 249, 249, 0.53);
+  border: 3px solid #cb2f65;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #cb2f65;
+}
