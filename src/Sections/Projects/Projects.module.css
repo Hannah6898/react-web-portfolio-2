@@ -1,0 +1,16 @@
+.heading h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 60px;
+  color: #373535;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftSide {
+  margin: 0 20px 19px 0;
+}
