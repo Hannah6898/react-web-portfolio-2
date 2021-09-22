@@ -1,10 +1,12 @@
 import "./App.css";
-import Header from "./Sections/Header/Header";
+import Navbar from "./Sections/Navbar/Navbar";
+import Hero from "./Sections/Hero/Hero";
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <Hero />
     </div>
   );
 }
