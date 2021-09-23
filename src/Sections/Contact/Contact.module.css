@@ -18,11 +18,13 @@
   line-height: 60px;
 }
 
-.input input {
+.input input,
+textarea {
   background: #f9f9f9;
   border: 1px solid #cb2f65;
   box-sizing: border-box;
   border-radius: 8px;
+  width: 70%;
 }
 
 .btn {
@@ -36,4 +38,26 @@
   font-size: 24px;
   line-height: 28px;
   margin-top: 32px;
+}
+
+.input .singleLine {
+  height: 44px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.icons a {
+  font-size: 40px;
+  color: #cb2f65;
+  text-decoration: none;
+}
+
+.icons {
+  margin-left: 30px;
 }
