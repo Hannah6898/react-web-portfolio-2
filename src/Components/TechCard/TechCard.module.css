@@ -1,0 +1,28 @@
+.card {
+  height: 296px;
+  width: 164px; /* Height and width makes sure the cards are the same size */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: -10px 8px 26px 9px rgba(81, 74, 74, 0.14);
+  margin-left: -40px; /* This makes the cards overlap each other */
+  transition: 0.2s ease-in-out; /* This lets them transition gently */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translate(-0.5rem, -1rem) rotate(3deg); /* This transforms the element to a different position when you hover over them */
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 70px;
+  color: rgba(203, 47, 101, 1);
+}
+
+.heading {
+  font-weight: bold;
+  margin-top: 20px;
+}

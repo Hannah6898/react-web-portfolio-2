@@ -27,7 +27,14 @@ const ProjectCard = (props) => {
             <p>{props.subheading}</p>
           </div>
         </div>
-        <div className={classes.chips}>{props.chips}</div>
+        <div className={classes.chips}>
+          {props.html}
+          {props.css}
+          {props.js}
+          {props.react}
+          {props.bootstrap}
+          {props.api}
+        </div>
       </div>
     </div>
   );
