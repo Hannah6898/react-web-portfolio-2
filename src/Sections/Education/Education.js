@@ -14,6 +14,7 @@ const Education = () => {
         <div className={classes.container}>
           <div className={classes.leftSide}>
             <EducationCard
+              className={classes.portrait}
               img={AWS}
               heading="AWS Cloud Practitioner"
               date="Jul 2021"
@@ -22,6 +23,7 @@ const Education = () => {
           </div>
 
           <EducationCard
+            className={classes.landscape}
             img={SheCodeReact}
             heading="SheCodes React"
             date="Apr 2021"
@@ -30,6 +32,7 @@ const Education = () => {
 
           <div className={classes.leftSide}>
             <EducationCard
+              className={classes.landscape}
               img={SheCodePlus}
               heading="SheCodes Plus"
               date="Mar 2021"
@@ -37,6 +40,7 @@ const Education = () => {
             />
           </div>
           <EducationCard
+            className={classes.landscape}
             img={SheCodeBasic}
             heading="SheCodes Basics"
             date="Feb 2021"

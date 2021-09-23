@@ -22,6 +22,7 @@ const Projects = () => {
         <div className={classes.leftSide}>
           {" "}
           <ProjectCard
+            className={classes.portrait}
             img={WeatherApp}
             heading="Weather App"
             subheading="This app pull data from a Open Weather Map API to display the weather of  any city in the world as well as the users current location."
@@ -31,6 +32,7 @@ const Projects = () => {
         </div>
 
         <ProjectCard
+          className={classes.landscape}
           img={Dictionary}
           heading="Dictionary App"
           subheading="I've used my knowledge of React to build a working dictionary app incorporating coding best practices, along with the most popular tools and technologies."
@@ -40,6 +42,7 @@ const Projects = () => {
         <div className={classes.leftSide}>
           {" "}
           <ProjectCard
+            className={classes.landscape}
             img={Portfolio}
             heading="Personal Portfolio"
             subheading="Created my personal portfolio using React and Material UI. This project was also able to obtain an average score of 99.75 for desktop devices on the Lighthouse test."
@@ -48,6 +51,7 @@ const Projects = () => {
           />
         </div>
         <ProjectCard
+          className={classes.landscape}
           img={YoutubeClone}
           heading="Youtube Clone"
           subheading="In this project I developed a visual clone of the Youtibe homepage"
@@ -57,6 +61,7 @@ const Projects = () => {
         <div className={classes.leftSide}>
           {" "}
           <ProjectCard
+            className={classes.landscape}
             img={DrumKit}
             heading="JavaScript Drum Kit"
             subheading="Created a JavaScript Drum kit using Keyboard events and styled using CSS grid"

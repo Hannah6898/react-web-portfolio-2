@@ -6,7 +6,11 @@ const EducationCard = (props) => {
     <div>
       <div className={classes.card}>
         <div className={classes.imgContainer}>
-          <img src={props.img} alt={props.heading}></img>
+          <img
+            src={props.img}
+            alt={props.heading}
+            className={props.className}
+          ></img>
         </div>
         <div className={classes.textContainer}>
           <div className={classes.headingContainer}>

@@ -10,7 +10,11 @@ const ProjectCard = (props) => {
           href={props.liveSite}
           target="_blank"
         >
-          <img src={props.img} alt="{props.heading}"></img>
+          <img
+            className={props.className}
+            src={props.img}
+            alt="{props.heading}"
+          ></img>
         </a>
         <div className={classes.textContainer}>
           <div className={classes.headingContainer}>

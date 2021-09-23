@@ -17,10 +17,6 @@
   align-items: center;
 }
 
-.imgContainer img {
-  width: 500px;
-}
-
 a {
   cursor: pointer;
 }

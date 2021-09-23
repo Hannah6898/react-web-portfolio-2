@@ -14,3 +14,11 @@
 .leftSide {
   margin: 0 20px 19px 0;
 }
+
+.portrait {
+  width: 250px;
+}
+
+.landscape {
+  width: 470px;
+}
