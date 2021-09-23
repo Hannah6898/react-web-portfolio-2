@@ -1,0 +1,22 @@
+.toggleBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointers;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.toggleBtn:focus {
+  outline: none;
+}
+
+.toggleBtnLine {
+  width: 30px;
+  height: 2px;
+  background-color: #cb2f65;
+}

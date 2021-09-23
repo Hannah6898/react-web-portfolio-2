@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Tech.module.css";
-import TechCard from "../../Components/TechCard/TechCard";
+import TechCard from "../../Elements/TechCard/TechCard";
 import {
   SiNetlify,
   SiJavascript,
@@ -15,7 +15,7 @@ import { AiFillGithub, AiFillApi } from "react-icons/ai";
 
 const Tech = () => {
   return (
-    <section>
+    <section id="tech">
       <div className={classes.heading}>
         <h3>Tech Stack</h3>
 

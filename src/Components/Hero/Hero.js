@@ -4,7 +4,7 @@ import HeroImg from "../../assets/img/Hero2.png";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="home">
       <div className={classes.container}>
         <div className={classes.textContainer}>
           <h1 className={classes.heading}>
@@ -14,7 +14,9 @@ const Hero = () => {
             Skilled in React and JavaScript, currently looking for my first role
             within the tech industry{" "}
           </h2>
-          <button className={classes.btn}>Let's Chat</button>
+          <a href="#contact">
+            <button className={classes.btn}>Let's Chat</button>
+          </a>
         </div>
         <div className={classes.heroImg}>
           <img src={HeroImg} alt="Hero images"></img>

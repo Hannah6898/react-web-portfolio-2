@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Education.module.css";
-import EducationCard from "../../Components/EducationCard/EducationCard";
+import EducationCard from "../../Elements/EducationCard/EducationCard";
 import AWS from "../../assets/img/AWS.png";
 import SheCodeBasic from "../../assets/img/SheCodesBasic.png";
 import SheCodePlus from "../../assets/img/SheCodesPlus.png";
@@ -8,7 +8,7 @@ import SheCodeReact from "../../assets/img/SheCodesReact.png";
 
 const Education = () => {
   return (
-    <section>
+    <section id="education">
       <div className={classes.heading}>
         <h3>Education</h3>
         <div className={classes.container}>

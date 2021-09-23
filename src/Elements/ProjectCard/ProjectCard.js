@@ -9,17 +9,25 @@ const ProjectCard = (props) => {
           className={classes.imgContainer}
           href={props.liveSite}
           target="_blank"
+          rel="noreferrer"
+          aria-label={`${props.heading} live site`}
         >
           <img
             className={props.className}
             src={props.img}
-            alt="{props.heading}"
+            alt={`${props.heading}`}
           ></img>
         </a>
         <div className={classes.textContainer}>
           <div className={classes.headingContainer}>
             <h4>{props.heading}</h4>
-            <a className={classes.link} href={props.gitHub} target="_blank">
+            <a
+              className={classes.link}
+              href={props.gitHub}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="View on Github"
+            >
               View on Github
             </a>
           </div>

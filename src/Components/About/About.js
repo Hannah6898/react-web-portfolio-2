@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./About.module.css";
 import AboutImg from "../../assets/img/AboutImg.png";
+import PDF from "../../assets/pdf/HannahOsiboduCV.pdf";
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className={classes.heading}>
         <h3>About</h3>
         <div className={classes.container}>
@@ -27,7 +28,14 @@ const About = () => {
               In my spare time I like to roller skate, watch TV and movies, and
               watch Formula 1.
             </p>
-            <button className={classes.btn}>Read my CV</button>
+            <a
+              href={PDF}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Read my CV"
+            >
+              <button className={classes.btn}>Read my CV</button>
+            </a>
           </div>
           <div className={classes.img}>
             <img src={AboutImg} alt="about"></img>

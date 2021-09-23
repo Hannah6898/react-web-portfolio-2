@@ -1,21 +1,21 @@
 import React from "react";
 import classes from "./Projects.module.css";
-import ProjectCard from "../../Components/ProjectCard/ProjectCard";
+import ProjectCard from "../../Elements/ProjectCard/ProjectCard";
 import WeatherApp from "../../assets/img/WeatherApp.png";
 import Dictionary from "../../assets/img/Dictionary.png";
 import Portfolio from "../../assets/img/Portfolio.png";
 import YoutubeClone from "../../assets/img/YoutubeClone.png";
 import DrumKit from "../../assets/img/DrumKit.png";
-import ReactChip from "../../Components/Chips/ReactChip";
-import JSChip from "../../Components/Chips/JSChip";
-import CSSChip from "../../Components/Chips/CssChip";
-import BootstrapChip from "../../Components/Chips/BootstrapChip";
-import APIChip from "../../Components/Chips/APIChip";
-import HTMLChip from "../../Components/Chips/HTMLChip";
+import ReactChip from "../../Elements/Chips/ReactChip";
+import JSChip from "../../Elements/Chips/JSChip";
+import CSSChip from "../../Elements/Chips/CssChip";
+import BootstrapChip from "../../Elements/Chips/BootstrapChip";
+import APIChip from "../../Elements/Chips/APIChip";
+import HTMLChip from "../../Elements/Chips/HTMLChip";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className={classes.heading}>
         <h3>Projects</h3>
       </div>

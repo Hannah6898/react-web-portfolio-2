@@ -15,7 +15,13 @@ const EducationCard = (props) => {
         <div className={classes.textContainer}>
           <div className={classes.headingContainer}>
             <h4>{props.heading}</h4>
-            <a className={classes.link} href={props.link}>
+            <a
+              className={classes.link}
+              href={props.link}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`View ${props.heading} Certificate`}
+            >
               View Certificate
             </a>
           </div>

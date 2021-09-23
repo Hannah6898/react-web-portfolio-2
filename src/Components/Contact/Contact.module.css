@@ -1,6 +1,7 @@
 .container {
   background-color: rgba(203, 47, 101, 0.1);
   padding: 51px 0 103px 108px;
+  margin-top: 60px;
 }
 
 .heading h3 {
