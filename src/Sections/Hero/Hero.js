@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import HeroImg from "../../assets/img/Hero-img.png";
+import HeroImg from "../../assets/img/Hero2.png";
 
 const Hero = () => {
   return (
@@ -16,7 +16,9 @@ const Hero = () => {
           </h2>
           <button className={classes.btn}>Let's Chat</button>
         </div>
-        <img src={HeroImg} alt="Hero images" className="heroImg"></img>
+        <div className={classes.heroImg}>
+          <img src={HeroImg} alt="Hero images"></img>
+        </div>
       </div>
     </section>
   );

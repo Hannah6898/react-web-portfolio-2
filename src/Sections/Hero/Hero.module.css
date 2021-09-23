@@ -25,3 +25,8 @@
   padding: 10px 16px;
   font-size: 24px;
 }
+
+.heroImg img {
+  width: 587px;
+  margin-right: -230px;
+}
