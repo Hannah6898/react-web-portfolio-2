@@ -34,4 +34,11 @@
   font-size: 24px;
   line-height: 28px;
   color: #cb2f65;
+  cursor: pointer;
+  transition: ease-in-out 2ms;
+}
+
+.btn:hover {
+  background: #cb2f65;
+  color: rgba(249, 249, 249);
 }
