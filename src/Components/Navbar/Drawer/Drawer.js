@@ -1,28 +1,38 @@
 import React from "react";
 import classes from "./Drawer.module.css";
 
-const Drawer = () => {
+const Drawer = (props) => {
   return (
     <nav className={classes.drawer}>
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={props.drawerClickHandler}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={props.drawerClickHandler}>
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#tech">Tech Stack</a>
+          <a href="#tech" onClick={props.drawerClickHandler}>
+            Tech Stack
+          </a>
         </li>
         <li>
-          <a href="#education">Education</a>
+          <a href="#education" onClick={props.drawerClickHandler}>
+            Education
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={props.drawerClickHandler}>
+            About
+          </a>
         </li>
         <li>
-          <a href="#contact">
-            <button>Contact</button>
+          <a href="#contact" onClick={props.drawerClickHandler}>
+            <button className={classes.contactBtn}>Contact</button>
           </a>
         </li>
       </ul>

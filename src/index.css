@@ -3,6 +3,7 @@
 }
 
 body {
+  /* position: absolute; */
   margin: 0 120px 0 120px;
   background-color: #f9f9f9;
   overflow-x: hidden;

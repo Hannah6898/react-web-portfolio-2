@@ -14,15 +14,31 @@ class App extends Component {
     drawerOpen: false,
   };
 
-  drawerToggleClickHandler = () => {};
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { drawerOpen: !prevState.drawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ drawerOpen: false });
+  };
 
   render() {
+    let drawer;
+    let backdrop;
+
+    if (this.state.drawerOpen) {
+      drawer = <Drawer drawerClickHandler={this.drawerToggleClickHandler} />;
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
+
     return (
       <div style={{ width: "100%" }}>
-        <Navbar />
-        <Drawer />
-        <Backdrop />
-        <main style={{ marginTop: "100px" }}>
+        <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+        {drawer}
+        {backdrop}
+        <main style={{ marginTop: "50px" }}>
           <Hero />
           <Projects />
           <Tech />
