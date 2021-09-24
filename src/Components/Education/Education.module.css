@@ -22,3 +22,9 @@
 .landscape {
   width: 470px;
 }
+
+@media (max-width: 1435px) {
+  .leftSide {
+    margin: 20px 20px 19px 0;
+  }
+}

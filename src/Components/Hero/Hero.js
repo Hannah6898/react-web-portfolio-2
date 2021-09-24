@@ -14,12 +14,12 @@ const Hero = () => {
             Skilled in React and JavaScript, currently looking for my first role
             within the tech industry{" "}
           </h2>
-          <a href="#contact">
+          <a href="#contact" aria-label="Contact button">
             <button className={classes.btn}>Let's Chat</button>
           </a>
         </div>
         <div className={classes.heroImg}>
-          <img src={HeroImg} alt="Hero images"></img>
+          <img src={HeroImg} alt="Weather app and youtube clone"></img>
         </div>
       </div>
     </section>

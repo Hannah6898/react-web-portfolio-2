@@ -42,3 +42,9 @@
   background: #cb2f65;
   color: rgba(249, 249, 249);
 }
+
+@media (max-width: 1435px) {
+  .img img {
+    margin-top: 20px;
+  }
+}

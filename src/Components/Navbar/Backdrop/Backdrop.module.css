@@ -6,3 +6,9 @@
   z-index: 100;
   margin-left: -120px;
 }
+
+@media (min-width: 769px) {
+  .backdrop {
+    display: none;
+  }
+}

@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <div className={classes.navbar}>
       <nav className={classes.navbarContainer}>
         <div className={classes.logo}>
-          <a href="#home">
+          <a href="#home" aria-label="Home">
             <img src={Logo} alt="Logo"></img>
           </a>
         </div>
@@ -16,22 +16,32 @@ const Navbar = (props) => {
           <div className={classes.navbarItems}>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="#home" aria-label="Home">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects" aria-label="Projects">
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#tech">Tech Stack</a>
+                <a href="#tech" aria-label="Tech Stack">
+                  Tech Stack
+                </a>
               </li>
               <li>
-                <a href="#education">Education</a>
+                <a href="#education" aria-label="Education">
+                  Education
+                </a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" aria-label="About">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#contact">
+                <a href="#contact" aria-label="Contact">
                   <button className={classes.contactBtn}>Contact</button>
                 </a>
               </li>

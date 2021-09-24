@@ -26,3 +26,10 @@
   font-weight: bold;
   margin-top: 20px;
 }
+
+@media (max-width: 375px) {
+  .card {
+    width: 70px;
+    margin-left: -50px;
+  }
+}

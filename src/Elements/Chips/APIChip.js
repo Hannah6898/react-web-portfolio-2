@@ -4,7 +4,7 @@ import classes from "./Chips.module.css";
 const APIChip = () => {
   return (
     <div>
-      <button className={classes.api}>API</button>
+      <div className={classes.api}>API</div>
     </div>
   );
 };

@@ -1,10 +1,9 @@
 .navbar {
-  /* position: fixed; */
   width: 100%;
-  /* background-color: silver; */
   background-color: #f9f9f9;
   height: 70px;
   top: 0;
+  position: fixed;
 }
 
 .navbarContainer {
@@ -12,11 +11,12 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo img {
   width: 60px;
+  margin-left: -185px;
 }
 
 .navbar ul {
@@ -24,6 +24,7 @@
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .navbar li {

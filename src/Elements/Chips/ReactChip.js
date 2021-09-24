@@ -4,7 +4,7 @@ import classes from "./Chips.module.css";
 const ReactChip = () => {
   return (
     <div>
-      <button className={classes.react}>React</button>
+      <div className={classes.react}>React</div>
     </div>
   );
 };

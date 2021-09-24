@@ -38,7 +38,7 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         {drawer}
         {backdrop}
-        <main style={{ marginTop: "50px" }}>
+        <main style={{ marginTop: "70px" }}>
           <Hero />
           <Projects />
           <Tech />

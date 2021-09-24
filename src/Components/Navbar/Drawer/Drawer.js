@@ -6,32 +6,52 @@ const Drawer = (props) => {
     <nav className={classes.drawer}>
       <ul>
         <li>
-          <a href="#home" onClick={props.drawerClickHandler}>
+          <a href="#home" aria-label="Home" onClick={props.drawerClickHandler}>
             Home
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={props.drawerClickHandler}>
+          <a
+            href="#projects"
+            aria-label="Projects"
+            onClick={props.drawerClickHandler}
+          >
             Projects
           </a>
         </li>
         <li>
-          <a href="#tech" onClick={props.drawerClickHandler}>
+          <a
+            href="#tech"
+            aria-label="Tech Stack"
+            onClick={props.drawerClickHandler}
+          >
             Tech Stack
           </a>
         </li>
         <li>
-          <a href="#education" onClick={props.drawerClickHandler}>
+          <a
+            href="#education"
+            aria-label="Education"
+            onClick={props.drawerClickHandler}
+          >
             Education
           </a>
         </li>
         <li>
-          <a href="#about" onClick={props.drawerClickHandler}>
+          <a
+            href="#about"
+            aria-label="About"
+            onClick={props.drawerClickHandler}
+          >
             About
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={props.drawerClickHandler}>
+          <a
+            href="#contact"
+            aria-label="Contact"
+            onClick={props.drawerClickHandler}
+          >
             <button className={classes.contactBtn}>Contact</button>
           </a>
         </li>

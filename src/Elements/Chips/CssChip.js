@@ -4,7 +4,7 @@ import classes from "./Chips.module.css";
 const CSSChip = () => {
   return (
     <div>
-      <button className={classes.css}>CSS</button>
+      <div className={classes.css}>CSS</div>
     </div>
   );
 };
