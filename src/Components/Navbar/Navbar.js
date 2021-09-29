@@ -6,7 +6,11 @@ import DrawerToggleBtn from "../Navbar/Drawer/DrawerToggleBtn";
 const Navbar = (props) => {
   return (
     <div className={classes.navbar}>
-      <nav className={classes.navbarContainer}>
+      <nav
+        className={classes.navbarContainer}
+        aria-label="Main Navigation"
+        role="navigation"
+      >
         <div className={classes.logo}>
           <a href="#home" aria-label="Home">
             <img src={Logo} alt="Logo"></img>

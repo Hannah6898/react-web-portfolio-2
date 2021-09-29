@@ -16,74 +16,83 @@ const Projects = () => {
       </div>
       <div className={classes.container}>
         <div className={classes.leftSide}>
-          {" "}
+          <span className={classes.card}>
+            {" "}
+            <ProjectCard
+              className={classes.portrait}
+              img={WeatherApp}
+              heading="Weather App"
+              subheading="This app pull data from a Open Weather Map API to display the weather of  any city in the world as well as the users current location."
+              gitHub="https://github.com/Hannah6898/react-weather-app"
+              liveSite="https://fervent-galileo-89d4fe.netlify.app/"
+              react={<SkillChip class={classes.react} skill="React" />}
+              js={<SkillChip class={classes.js} skill="JS" />}
+              css={<SkillChip class={classes.css} skill="CSS" />}
+              bootstrap={
+                <SkillChip class={classes.bootstrap} skill="Bootstrap" />
+              }
+              api={<SkillChip class={classes.api} skill="API" />}
+            />
+          </span>
+        </div>
+        <span className={classes.card}>
           <ProjectCard
-            className={classes.portrait}
-            img={WeatherApp}
-            heading="Weather App"
-            subheading="This app pull data from a Open Weather Map API to display the weather of  any city in the world as well as the users current location."
-            gitHub="https://github.com/Hannah6898/react-weather-app"
-            liveSite="https://fervent-galileo-89d4fe.netlify.app/"
+            className={classes.landscape}
+            img={Dictionary}
+            heading="Dictionary App"
+            subheading="I've used my knowledge of React to build a working dictionary app incorporating coding best practices, along with the most popular tools and technologies."
+            gitHub="https://github.com/Hannah6898/react-dictionary"
+            liveSite="https://gallant-boyd-0ddfe2.netlify.app/"
             react={<SkillChip class={classes.react} skill="React" />}
             js={<SkillChip class={classes.js} skill="JS" />}
             css={<SkillChip class={classes.css} skill="CSS" />}
-            bootstrap={
-              <SkillChip class={classes.bootstrap} skill="Bootstrap" />
-            }
             api={<SkillChip class={classes.api} skill="API" />}
           />
-        </div>
-
-        <ProjectCard
-          className={classes.landscape}
-          img={Dictionary}
-          heading="Dictionary App"
-          subheading="I've used my knowledge of React to build a working dictionary app incorporating coding best practices, along with the most popular tools and technologies."
-          gitHub="https://github.com/Hannah6898/react-dictionary"
-          liveSite="https://gallant-boyd-0ddfe2.netlify.app/"
-          react={<SkillChip class={classes.react} skill="React" />}
-          js={<SkillChip class={classes.js} skill="JS" />}
-          css={<SkillChip class={classes.css} skill="CSS" />}
-          api={<SkillChip class={classes.api} skill="API" />}
-        />
+        </span>
         <div className={classes.leftSide}>
-          {" "}
+          <span className={classes.card}>
+            {" "}
+            <ProjectCard
+              className={classes.landscape}
+              img={Portfolio}
+              heading="Personal Portfolio"
+              subheading="Created my personal portfolio using React and Material UI. This project was also able to obtain an average score of 99.75 for desktop devices on the Lighthouse test."
+              gitHub="https://github.com/Hannah6898/react-web-portfolio-2"
+              liveSite="https://www.hannahosibodu.com/"
+              react={<SkillChip class={classes.react} skill="React" />}
+              js={<SkillChip class={classes.js} skill="JS" />}
+              css={<SkillChip class={classes.css} skill="CSS" />}
+            />
+          </span>
+        </div>
+        <span className={classes.card}>
           <ProjectCard
             className={classes.landscape}
-            img={Portfolio}
-            heading="Personal Portfolio"
-            subheading="Created my personal portfolio using React and Material UI. This project was also able to obtain an average score of 99.75 for desktop devices on the Lighthouse test."
-            gitHub="https://github.com/Hannah6898/react-web-portfolio-2"
-            liveSite="https://www.hannahosibodu.com/"
-            react={<SkillChip class={classes.react} skill="React" />}
-            js={<SkillChip class={classes.js} skill="JS" />}
-            css={<SkillChip class={classes.css} skill="CSS" />}
-          />
-        </div>
-        <ProjectCard
-          className={classes.landscape}
-          img={YoutubeClone}
-          heading="Youtube Clone"
-          subheading="In this project I developed a visual clone of the Youtibe homepage"
-          gitHub="https://github.com/Hannah6898/Youtube-Clone"
-          liveSite="https://elegant-sinoussi-498e6f.netlify.app/"
-          js={<SkillChip class={classes.js} skill="JS" />}
-          css={<SkillChip class={classes.css} skill="CSS" />}
-          html={<SkillChip class={classes.html} skill="HTML" />}
-        />
-        <div className={classes.leftSide}>
-          {" "}
-          <ProjectCard
-            className={classes.landscape}
-            img={DrumKit}
-            heading="JavaScript Drum Kit"
-            subheading="Created a JavaScript Drum kit using Keyboard events and styled using CSS grid"
-            gitHub="https://github.com/Hannah6898/JavaScript-Drum-Kit"
-            liveSite="https://dreamy-kalam-3b5e13.netlify.app/"
+            img={YoutubeClone}
+            heading="Youtube Clone"
+            subheading="In this project I developed a visual clone of the Youtibe homepage"
+            gitHub="https://github.com/Hannah6898/Youtube-Clone"
+            liveSite="https://elegant-sinoussi-498e6f.netlify.app/"
             js={<SkillChip class={classes.js} skill="JS" />}
             css={<SkillChip class={classes.css} skill="CSS" />}
             html={<SkillChip class={classes.html} skill="HTML" />}
           />
+        </span>
+        <div className={classes.leftSide}>
+          <span>
+            {" "}
+            <ProjectCard
+              className={classes.landscape}
+              img={DrumKit}
+              heading="JavaScript Drum Kit"
+              subheading="Created a JavaScript Drum kit using Keyboard events and styled using CSS grid"
+              gitHub="https://github.com/Hannah6898/JavaScript-Drum-Kit"
+              liveSite="https://dreamy-kalam-3b5e13.netlify.app/"
+              js={<SkillChip class={classes.js} skill="JS" />}
+              css={<SkillChip class={classes.css} skill="CSS" />}
+              html={<SkillChip class={classes.html} skill="HTML" />}
+            />
+          </span>
         </div>
       </div>
     </section>
