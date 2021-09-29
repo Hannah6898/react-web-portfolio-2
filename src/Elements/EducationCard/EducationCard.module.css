@@ -1,8 +1,9 @@
 .card {
   background-color: #ffffff;
   border-radius: 32px;
-  padding: 50px 55px 0px 54px;
+  padding: 50px 55px 5px 54px;
   width: 588px;
+  max-width: 100%;
   height: 512px;
 }
 
@@ -10,7 +11,7 @@
   background-color: rgba(203, 47, 101, 0.2);
   border-radius: 8px;
   box-shadow: 0px 4px 38px 7px rgba(0, 0, 0, 0.14);
-  width: 479px;
+  max-width: 479px;
   height: 324px;
   display: flex;
   justify-content: center;

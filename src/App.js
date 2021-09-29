@@ -34,11 +34,11 @@ class App extends Component {
     }
 
     return (
-      <div style={{ width: "100%" }}>
+      <div style={{ maxWidth: "100%" }}>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         {drawer}
         {backdrop}
-        <main style={{ marginTop: "70px" }}>
+        <main style={{ margin: "70px 120px 0 120px" }}>
           <Hero />
           <Projects />
           <Tech />

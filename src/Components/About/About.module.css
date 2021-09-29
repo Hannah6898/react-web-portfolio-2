@@ -11,6 +11,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 100%;
 }
 
 .img img {
@@ -22,7 +23,7 @@
   color: #373535;
   font-size: 20px;
   line-height: 35px;
-  width: 688px;
+  max-width: 680px;
 }
 
 .btn {

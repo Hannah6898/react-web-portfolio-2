@@ -1,5 +1,6 @@
 .navbar {
   width: 100%;
+  max-width: 100%;
   background-color: #f9f9f9;
   height: 70px;
   top: 0;
@@ -10,13 +11,13 @@
   display: flex;
   align-items: center;
   height: 100%;
-  width: 100%;
-  justify-content: space-around;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: 0 120px 0 120px;
 }
 
 .logo img {
   width: 60px;
-  margin-left: -185px;
 }
 
 .navbar ul {

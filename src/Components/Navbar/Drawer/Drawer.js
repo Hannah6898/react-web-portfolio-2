@@ -10,6 +10,7 @@ const Drawer = (props) => {
             Home
           </a>
         </li>
+
         <li>
           <a
             href="#projects"
@@ -56,6 +57,7 @@ const Drawer = (props) => {
           </a>
         </li>
       </ul>
+      ;
     </nav>
   );
 };

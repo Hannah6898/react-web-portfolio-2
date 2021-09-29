@@ -1,11 +1,11 @@
 .card {
   height: 296px;
-  width: 164px; /* Height and width makes sure the cards are the same size */
+  width: 164px;
   background-color: white;
   border-radius: 8px;
   box-shadow: -10px 8px 26px 9px rgba(81, 74, 74, 0.14);
-  margin-left: -40px; /* This makes the cards overlap each other */
-  transition: 0.2s ease-in-out; /* This lets them transition gently */
+  margin-left: -40px;
+  transition: 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .card:hover {
-  transform: translate(-0.5rem, -1rem) rotate(3deg); /* This transforms the element to a different position when you hover over them */
+  transform: translate(-0.5rem, -1rem) rotate(3deg);
   cursor: pointer;
 }
 

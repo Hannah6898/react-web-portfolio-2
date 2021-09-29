@@ -9,6 +9,7 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .leftSide {
@@ -16,11 +17,11 @@
 }
 
 .portrait {
-  width: 300px;
+  max-width: 300px;
 }
 
 .landscape {
-  width: 470px;
+  max-width: 470px;
 }
 
 @media (max-width: 1435px) {

@@ -5,8 +5,7 @@
   top: 70px;
   z-index: 200;
   animation: fade-in-fwd;
-  animation-duration: 0.5s;
-  margin-left: -120px;
+  animation-duration: 0.4s;
 }
 
 .drawer ul {
@@ -19,6 +18,9 @@
 .drawer li {
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  cursor: pointer;
+  padding: 0;
 }
 
 .drawer li:hover {
@@ -30,6 +32,7 @@
   text-decoration: none;
   font-size: 18px;
   margin: 0.5rem 0;
+  max-width: 100%;
 }
 
 .contactBtn {

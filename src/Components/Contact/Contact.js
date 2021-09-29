@@ -39,26 +39,34 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail}>
           <div className={classes.input}>
-            <label>Name</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
               name="name"
               required
+              id="name"
               className={classes.singleLine}
             ></input>
           </div>
           <div className={classes.input}>
-            <label>Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
               name="email"
               required
+              id="email"
               className={classes.singleLine}
             ></input>
           </div>
           <div className={classes.input}>
-            <label>Message</label>
-            <textarea rows="5" col="30" name="message" required></textarea>
+            <label htmlFor="message">Message</label>
+            <textarea
+              rows="5"
+              col="30"
+              name="message"
+              id="message"
+              required
+            ></textarea>
           </div>
           <input
             type="submit"

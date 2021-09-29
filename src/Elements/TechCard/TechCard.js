@@ -6,7 +6,7 @@ const TechCard = (props) => {
     <div>
       <div className={classes.card}>
         <div className={classes.icon}>{props.icon}</div>
-        <div className={classes.heading}>{props.heading}</div>
+        <p className={classes.heading}>{props.heading}</p>
       </div>
     </div>
   );
