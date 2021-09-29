@@ -56,7 +56,7 @@ const Projects = () => {
               className={classes.landscape}
               img={Portfolio}
               heading="Personal Portfolio"
-              subheading="Created my personal portfolio using React and Material UI. This project was also able to obtain an average score of 99.75 for desktop devices on the Lighthouse test."
+              subheading="Created my personal portfolio using React. This project was also able to obtain an average score of 99.75 for desktop devices on the Lighthouse test."
               gitHub="https://github.com/Hannah6898/react-web-portfolio-2"
               liveSite="https://www.hannahosibodu.com/"
               react={<SkillChip class={classes.react} skill="React" />}
