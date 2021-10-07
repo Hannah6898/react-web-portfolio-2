@@ -57,7 +57,6 @@ const Drawer = (props) => {
           </a>
         </li>
       </ul>
-      ;
     </nav>
   );
 };
