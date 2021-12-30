@@ -62,6 +62,8 @@ const Projects = () => {
               react={<SkillChip class={classes.react} skill="React" />}
               js={<SkillChip class={classes.js} skill="JS" />}
               css={<SkillChip class={classes.css} skill="CSS" />}
+              figma={<SkillChip class={classes.figma} skill="Figma" />}
+              figmaLink="https://www.figma.com/file/BfgVFdY67ncjUdA8kxD5ub/Hannah's-Portfolio-(Design)?node-id=0%3A1"
             />
           </span>
         </div>

@@ -42,6 +42,9 @@ const ProjectCard = (props) => {
           {props.react}
           {props.bootstrap}
           {props.api}
+          <a href={props.figmaLink} target="_blank" rel="noreferrer">
+            {props.figma}
+          </a>
         </div>
       </div>
     </div>

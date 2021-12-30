@@ -83,6 +83,21 @@
   color: white;
   margin-right: 8px;
 }
+.figma {
+  background-color: #e0a8e7;
+  border: none;
+  border-radius: 29px;
+  padding: 8px 16px;
+  font-size: 18px;
+  color: white;
+  margin-right: 8px;
+}
+
+.figma:hover {
+  background-color: white;
+  border: 1px solid #e0a8e7;
+  color: #e0a8e7;
+}
 
 @media (max-width: 1435px) {
   .leftSide {

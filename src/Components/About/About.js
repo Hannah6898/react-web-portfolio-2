@@ -10,13 +10,10 @@ const About = () => {
         <h3>About</h3>
         <div className={classes.container}>
           <div className={classes.textContainer}>
+            <p>I’m Hannah, a Full stack developer based in Kent.</p>
             <p>
-              I’m Hannah, a Software Developer based in Kent currently looking
-              for my first junior developer role.
-            </p>
-            <p>
-              I began learning to code at the beginning of this year and found
-              the process of learning new technologies and creating solutions to
+              I began learning to code at the beginning of 2021 and found the
+              process of learning new technologies and creating solutions to
               difficult problems both exciting and rewarding.
             </p>
             <p>
