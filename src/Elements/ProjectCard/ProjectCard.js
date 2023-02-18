@@ -42,6 +42,8 @@ const ProjectCard = (props) => {
           {props.react}
           {props.bootstrap}
           {props.api}
+          {props.aws}
+          {props.heroku}
           <a href={props.figmaLink} target="_blank" rel="noreferrer">
             {props.figma}
           </a>

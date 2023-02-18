@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Projects.module.css";
 import ProjectCard from "../../Elements/ProjectCard/ProjectCard";
 import WeatherApp from "../../assets/img/WeatherApp.png";
+import Buzzfeed from "../../assets/img/Buzzfeed.png";
 import Dictionary from "../../assets/img/Dictionary.png";
 import Portfolio from "../../assets/img/Portfolio.png";
 import YoutubeClone from "../../assets/img/YoutubeClone.png";
@@ -15,7 +16,27 @@ const Projects = () => {
         <h3>Projects</h3>
       </div>
       <div className={classes.container}>
-        <div className={classes.leftSide}>
+      <div className={classes.leftSide}>
+          <span className={classes.card}>
+            {" "}
+            <ProjectCard
+              className={classes.portraitBuzzfeed}
+              img={Buzzfeed}
+              heading="Buzzfeed Quiz"
+              subheading="This is a Buzzfeed quiz with a json server hosted on Heroku and front-end hosted on AWS Amplify"
+              gitHub="https://github.com/Hannah6898/BuzzfeedQuiz/tree/master"
+              liveSite="https://master.d2zx96ceav46bo.amplifyapp.com/"
+              react={<SkillChip class={classes.react} skill="React" />}
+              js={<SkillChip class={classes.js} skill="JS" />}
+              css={<SkillChip class={classes.css} skill="CSS" />}
+              aws={
+                <SkillChip class={classes.aws} skill="AWS" />
+              }
+              heroku={<SkillChip class={classes.heroku} skill="Heroku" />}
+            />
+          </span>
+        </div>
+        
           <span className={classes.card}>
             {" "}
             <ProjectCard
@@ -34,7 +55,7 @@ const Projects = () => {
               api={<SkillChip class={classes.api} skill="API" />}
             />
           </span>
-        </div>
+      
         <span className={classes.card}>
           <ProjectCard
             className={classes.landscape}

@@ -16,6 +16,11 @@
   margin: 0 20px 19px 0;
 }
 
+.portraitBuzzfeed {
+  width: 200px;
+  height:300px;
+}
+
 .portrait {
   width: 250px;
 }
@@ -66,6 +71,26 @@
 
 .api {
   background-color: #938d99;
+  border: none;
+  border-radius: 29px;
+  padding: 8px 16px;
+  font-size: 18px;
+  color: white;
+  margin-right: 8px;
+}
+
+.aws {
+  background-color: #FF9900;
+  border: none;
+  border-radius: 29px;
+  padding: 8px 16px;
+  font-size: 18px;
+  color: white;
+  margin-right: 8px;
+}
+
+.heroku {
+  background-color: #855FB0;
   border: none;
   border-radius: 29px;
   padding: 8px 16px;
