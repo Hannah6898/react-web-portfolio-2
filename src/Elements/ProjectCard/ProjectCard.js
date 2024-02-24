@@ -40,6 +40,9 @@ const ProjectCard = (props) => {
           {props.css}
           {props.js}
           {props.react}
+          {props.node}
+          {props.express}
+          {props.mongoDB}
           {props.bootstrap}
           {props.api}
           {props.aws}

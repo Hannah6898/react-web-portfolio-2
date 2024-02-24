@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
 import AboutImg from "../../assets/img/AboutImg.png";
-import PDF from "../../assets/pdf/HannahOsiboduCV.pdf";
+import PDF from "../../assets/pdf/Hannah Osibodu CV.pdf";
 
 const About = () => {
   return (
@@ -10,20 +10,23 @@ const About = () => {
         <h3>About</h3>
         <div className={classes.container}>
           <div className={classes.textContainer}>
-            <p>I’m Hannah, a Full stack developer based in Kent.</p>
+            <p>Hello I’m Hannah a Software Engineer based in London.</p>
             <p>
-              I began learning to code at the beginning of 2021 and found the
-              process of learning new technologies and creating solutions to
-              difficult problems both exciting and rewarding.
+              I am proficient in Java and experienced in React, JavaScript, HTML
+              and CSS. Furthermore I have extensive experience in DevOps and
+              Agile methodologies.{" "}
             </p>
             <p>
-              My long-term goal is to be able to efficiently turn great ideas
-              into functioning products thorough absorbing as much as I can from
-              those my senior and become the best developer I can be.
+              I’m currently working as a Backend Engineer at NatWest; my
+              long-term goal is work as a Full Stack Engineer combining my
+              strong interest for front-end technologies such as React; and work
+              for an organisation where I can leverage my technical skills to
+              deliver high-impact solutions.
             </p>
             <p>
-              In my spare time I like to roller skate, watch TV and movies, and
-              watch Formula 1.
+              {" "}
+              I also want to incorporate my love for travel and seek a role that
+              will allow me to live and work in different countries.
             </p>
             <a
               href={PDF}

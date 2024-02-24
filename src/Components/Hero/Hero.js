@@ -8,10 +8,10 @@ const Hero = () => {
       <div className={classes.container}>
         <div className={classes.textContainer}>
           <h1 className={classes.heading}>
-            Full Stack Developer working with React
+            Software Engineer working with Java
           </h1>
           <h2 className={classes.subheading}>
-            Skilled in React, Java and Postgresql{" "}
+            Skilled in Java, React and SQL{" "}
           </h2>
           <a href="#contact" aria-label="Contact button">
             <button className={classes.btn}>Let's Chat</button>

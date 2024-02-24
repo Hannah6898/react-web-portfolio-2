@@ -7,6 +7,7 @@ import Dictionary from "../../assets/img/Dictionary.png";
 import Portfolio from "../../assets/img/Portfolio.png";
 import YoutubeClone from "../../assets/img/YoutubeClone.png";
 import DrumKit from "../../assets/img/DrumKit.png";
+import LocationSharingApp from "../../assets/img/LocationSharingApp.png"
 import SkillChip from "../../Elements/Chips/SkillChip";
 
 const Projects = () => {
@@ -17,6 +18,23 @@ const Projects = () => {
       </div>
       <div className={classes.container}>
       <div className={classes.leftSide}>
+        <span>
+          <ProjectCard
+          className={classes.landscape}
+          img={LocationSharingApp}
+          heading="Location Sharing App"
+          subheading="MERN CURD application"
+          github="https://github.com/Hannah6898/mern-app-backend"
+          // github="https://github.com/Hannah6898/LocationSharingApp"
+          liveSite="https://master.d3mqk04l9yonu5.amplifyapp.com/"
+          react={<SkillChip class={classes.react} skill="React" />}
+          node={<SkillChip class={classes.node} skill="Node" />}
+          express={<SkillChip class={classes.express} skill="Express" />}
+          mongoDB={<SkillChip class={classes.mongoDB} skill="MongoDB" />}
+          aws={<SkillChip class={classes.aws} skill="AWS" />}
+          heroku={<SkillChip class={classes.heroku} skill="Heroku" />}
+          />
+        </span>
           <span className={classes.card}>
             {" "}
             <ProjectCard

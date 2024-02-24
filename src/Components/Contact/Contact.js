@@ -93,14 +93,7 @@ const Contact = () => {
           >
             <AiFillLinkedin />{" "}
           </a>
-          <a
-            href="https://twitter.com/hanc0des"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Twitter"
-          >
-            <AiFillTwitterCircle />
-          </a>
+        
         </span>
       </div>
     </section>

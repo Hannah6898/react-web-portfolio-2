@@ -5,6 +5,7 @@ import AWS from "../../assets/img/AWS.png";
 import SheCodeBasic from "../../assets/img/SheCodesBasic.png";
 import SheCodePlus from "../../assets/img/SheCodesPlus.png";
 import SheCodeReact from "../../assets/img/SheCodesReact.png";
+import UdemyMERNStack from "../../assets/img/UdemyMERNStack.png"
 
 const Education = () => {
   return (
@@ -12,6 +13,15 @@ const Education = () => {
       <div className={classes.heading}>
         <h3>Education</h3>
         <div className={classes.container}>
+        <span className={classes.card}>
+            <EducationCard
+              className={classes.landscape}
+              img={UdemyMERNStack}
+              heading="The MERN Fullstack Guide"
+              date="Oct 2023"
+              link="https://www.udemy.com/certificate/UC-1eb5ce72-e478-48b4-88fe-e7d6efcc3ff1/"
+            />
+          </span>
           <div className={classes.leftSide}>
             <span className={classes.card}>
               <EducationCard
