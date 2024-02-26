@@ -1,11 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import classes from "./Contact.module.css";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Contact = () => {
   const form = useRef();
@@ -93,7 +89,6 @@ const Contact = () => {
           >
             <AiFillLinkedin />{" "}
           </a>
-        
         </span>
       </div>
     </section>

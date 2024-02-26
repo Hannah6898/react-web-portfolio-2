@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
+  justify-content: space-between;
 }
 
 .leftSide {
@@ -22,6 +23,11 @@
 
 .landscape {
   max-width: 470px;
+}
+
+.imgClass {
+  max-width: 470px;
+  height: 300px;
 }
 
 @media (max-width: 1435px) {

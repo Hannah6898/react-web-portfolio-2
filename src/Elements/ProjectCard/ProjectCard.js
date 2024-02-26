@@ -35,21 +35,23 @@ const ProjectCard = (props) => {
             <p>{props.subheading}</p>
           </div>
         </div>
-        <div className={classes.chips}>
-          {props.html}
-          {props.css}
-          {props.js}
-          {props.react}
-          {props.node}
-          {props.express}
-          {props.mongoDB}
-          {props.bootstrap}
-          {props.api}
-          {props.aws}
-          {props.heroku}
-          <a href={props.figmaLink} target="_blank" rel="noreferrer">
-            {props.figma}
-          </a>
+        <div>
+          <div className={classes.chipsContainer}>
+            {props.html}
+            {props.css}
+            {props.js}
+            {props.react}
+            {props.node}
+            {props.express}
+            {props.mongoDB}
+            {props.bootstrap}
+            {props.api}
+            {props.aws}
+            {props.heroku}
+            <a href={props.figmaLink} target="_blank" rel="noreferrer">
+              {props.figma}
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -29,123 +29,70 @@
   width: 470px;
 }
 
-.react {
-  background-color: #47a3f8;
-  border: none;
+.skillChip{
   border-radius: 29px;
+  border: none;
   padding: 8px 16px;
   font-size: 18px;
+}
+
+.react {
+  background-color: #47a3f8;
   color: white;
-  margin-right: 8px;
 }
 
 .js {
   background-color: #f8c647;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: black;
-  margin-right: 8px;
 }
 
 .css {
   background-color: #3040cc;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .bootstrap {
   background-color: #8210f5;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .api {
   background-color: #938d99;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .aws {
   background-color: #FF9900;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .heroku {
   background-color: #855FB0;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .html {
   background-color: #dd4b25;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 .figma {
   background-color: #e0a8e7;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .node {
   background-color:#75AE5E;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .express {
   background-color: #212121;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 .mongoDB {
   background-color: #178D4D;
-  border: none;
-  border-radius: 29px;
-  padding: 8px 16px;
-  font-size: 18px;
   color: white;
-  margin-right: 8px;
 }
 
 
