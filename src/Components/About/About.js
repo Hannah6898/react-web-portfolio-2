@@ -17,7 +17,7 @@ const About = () => {
               Agile methodologies.{" "}
             </p>
             <p>
-              I’m currently working as a Backend Engineer at NatWest; my
+              I’m currently working as a Software Engineer at NatWest. My
               long-term goal is work as a Full Stack Engineer combining my
               strong interest for front-end technologies such as React; and work
               for an organisation where I can leverage my technical skills to
